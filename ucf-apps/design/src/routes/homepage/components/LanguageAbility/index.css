@@ -1,0 +1,29 @@
+.language-ability {
+  font-family: PingFang-SC-Medium;
+  text-align: center;
+  width: 100%;
+  height: 800px;
+}
+.language-ability .language-title {
+  font-size: 38px;
+  font-weight: 500;
+  color: #2b2d42;
+  line-height: 53px;
+  margin-top: 164px;
+}
+.language-ability .language-content {
+  margin: 0 auto;
+  font-size: 14px;
+  font-weight: 500;
+  color: #424242;
+  line-height: 30px;
+  margin-top: 200px;
+}
+.language-ability .language-aspect {
+  margin: 0 auto;
+  width: 67%;
+  font-size: 20px;
+  font-weight: 500;
+  color: #424242;
+  line-height: 28px;
+}

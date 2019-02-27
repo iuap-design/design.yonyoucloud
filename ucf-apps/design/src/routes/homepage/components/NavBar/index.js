@@ -7,23 +7,20 @@ class NavBar extends Component {
     render() {
         return (
             <div className="nav">
-                <div className="navcontainer">
-                    <div id="a1">
-                    
+                    <div className="nav-img">
                     </div>
-                    <div id="a2">
+                    <div className="nav-search">
                       
                     </div>
-                    <div id="a3">
-                        <ul id="nav">
+                    <div className="choice">
+                        <ul className="nav-options">
                             <li><a href="">首页</a></li>
                             <li><a href="">设计语言</a></li>
                             <li><a href="">基础组件</a></li>
                             <li><a href="">应用组件</a></li>
                             <li><a href="">典型案例</a></li>
                         </ul>
-                    </div>
-                </div>  
+                    </div> 
             </div>
         );
     }

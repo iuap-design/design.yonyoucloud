@@ -1,0 +1,22 @@
+.richcase-content {
+  height: 739px;
+  font-family: PingFang-SC-Medium;
+}
+.richcase-content .richcase-content-title {
+  width: 304px;
+  height: 106px;
+  font-size: 38px;
+  font-weight: 500;
+  color: #06062a;
+  margin-left: 929px;
+  margin-top: 206px;
+}
+.richcase-content .richcase-button {
+  font-size: 16px;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: #06062a;
+  line-height: 22px;
+  margin-left: 929px;
+  margin-top: 210px;
+}

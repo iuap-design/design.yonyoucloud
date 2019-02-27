@@ -1,4 +1,5 @@
 require('@babel/polyfill');
+var path = require('path')
 /**
  * UCF配置文件 更多说明文档请看 https://github.com/iuap-design/ucf-web/blob/master/packages/ucf-scripts/README.md
  */
@@ -27,6 +28,7 @@ module.exports = (env, argv) => {
         // 别名配置
         alias: {
             //'ucf-apps': path.resolve(__dirname, 'ucf-apps/')
+            'images': path.resolve(__dirname, 'ucf-apps/design/src/static/images')
         },
         // 构建排除指定包
         externals: {
