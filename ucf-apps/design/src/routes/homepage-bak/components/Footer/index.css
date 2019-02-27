@@ -1,0 +1,25 @@
+.footer {
+  width: 1439px;
+  height: 570px;
+  background: #1c1c1c;
+  border-radius: 2px;
+  color: #ffffff;
+}
+.footer .footer-top-items .footer-top-item {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 14px;
+}
+.footer .footer-base .footer-base-font-container {
+  width: 752px;
+  height: 40px;
+  margin: 0 auto;
+}
+.footer .footer-base .footer-base-font-container .footer-base-font {
+  font-size: 14px;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: #959aa5;
+  line-height: 20px;
+  text-align: center;
+}

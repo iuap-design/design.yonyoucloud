@@ -1,0 +1,18 @@
+.IuapIntro-content-left {
+  display: inline-block;
+  height: 18%;
+  margin: 7%,0,0,6%;
+  vertical-align: top;
+}
+.IuapIntro-content-left .IuapIntro-content-font {
+  font-family: PingFang-SC-Heavy;
+  color: #333333;
+}
+.IuapIntro-content-left .IuapIntro-content-font .IuapIntro-content-title {
+  font-size: 60px;
+  font-weight: 800;
+}
+.IuapIntro-content-left .IuapIntro-content-font .IuapIntro-content-p {
+  font-size: 20px;
+  font-weight: 500;
+}

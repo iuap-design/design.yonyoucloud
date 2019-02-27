@@ -1,0 +1,20 @@
+.nav {
+  width: 1440px;
+  height: 65px;
+  background: #ffffff;
+  border-radius: 2px;
+  display: inline-block;
+}
+.nav .navcontainer {
+  padding-left: 61px;
+  padding-right: 48px;
+}
+.nav .navcontainer .a1 {
+  float: left;
+}
+.nav .navcontainer .a2 {
+  float: left;
+}
+.nav .navcontainer .a3 {
+  float: left;
+}
