@@ -30,7 +30,8 @@ module.exports = (env, argv) => {
         // 别名配置
         alias: {
             //'ucf-apps': path.resolve(__dirname, 'ucf-apps/')
-            'images': path.resolve(__dirname, 'ucf-apps/design/src/static/images')
+            'images': path.resolve(__dirname, 'ucf-apps/design/src/static/images'),
+            'components': path.resolve(__dirname, 'ucf-common/src/components'),
         },
         // 构建排除指定包
         externals: {

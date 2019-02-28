@@ -1,0 +1,78 @@
+@primary-color:red;
+.nav{
+    height: 65px;
+    line-height: 65px;
+    border-bottom:1px solid #ccc;
+    .nav-left{
+        .nav-logo{
+            display: inline-block;
+            img{
+                display: inline-block;
+                width: 100px;
+                height: 65px;
+            }
+            i{
+                padding: 0;
+                height: 0;
+                display: inline-block;
+            }
+            .uf-iuapdesign-col:before{
+                font-size: 100px;
+                display: inline-block;
+            }
+        }
+        .nav-split{
+            color: #ccc;
+            margin: 0 20px;
+        }
+        .nav-search{
+            .u-form-control-affix-wrapper{
+                width: auto;
+                .u-form-control{
+                    width: auto;
+                    border: none;
+                    padding-left: 30px;
+                }
+                .u-form-control-suffix{
+                    right: auto;
+                    left: 0;
+                }
+            }
+        }
+    }
+    .nav-right{
+        .nav-options{
+            float: right;
+                li{
+                    float: left;
+                    margin-right:20px;
+                    .u-select{
+                        min-width: 85px;
+                        font-size: 14px;
+                        color: #444;
+                        .u-select-arrow{
+                            margin-top: -8px;
+                            font-size: 14px;
+                        }
+                        .u-select-selection {
+                            border: none;
+                        }
+                    }
+                    a{
+                        color: #444;
+                    }
+                    a:hover{
+                        color: @primary-color;
+                    }
+                }
+        }
+    }
+}
+
+.nav-lang-select{
+    .u-select-dropdown-menu-item-selected, .u-select-dropdown-menu-item-selected:hover,.u-select-dropdown-menu-item-active{
+        color: @primary-color!important;
+        background: #fff!important;
+        font-weight: 0!important;
+    }
+}

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import NavBar from './components/NavBar';
+import NavBar from 'components/NavBar';
 import IuapIntroduce from './components/IuapIntroduce';
 import LanguageAbility from './components/LanguageAbility';
 import ComponentRange from './components/ComponentRange';
