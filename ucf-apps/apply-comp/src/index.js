@@ -4,7 +4,7 @@ import IuapIntroduce from './components/IuapIntroduce';
 import LanguageAbility from './components/LanguageAbility';
 import ComponentRange from './components/ComponentRange';
 import RichCase from './components/RichCase';
-//import DevelopTools from './components/DevelopTools';
+import DevelopTools from './components/DevelopTools';
 import Footer from './components/Footer';
 import './index.less';
 
@@ -17,6 +17,7 @@ class Index extends Component {
                 <LanguageAbility/>
                 <ComponentRange/>
                 <RichCase/>
+                <DevelopTools/>
                 <Footer/>
             </div>
         );
