@@ -1,0 +1,11 @@
+.develop-tools {
+  margin: 0 auto;
+  text-align: center;
+  height: 800px;
+}
+.develop-tools .tools-title {
+  font-size: 38px;
+  font-weight: 500;
+  color: #424242;
+  line-height: 53px;
+}

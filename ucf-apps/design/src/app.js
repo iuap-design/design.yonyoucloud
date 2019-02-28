@@ -1,20 +1,13 @@
 /**
- * 入口、路由、导入组件样式、渲染页面
+ * 入口、导入组件样式、渲染
  */
 
 import React from 'react';
-import mirror, { render, Router } from 'mirrorx';
-import Routes from './routes';
-// 组件库样式
-import 'tinper-bee/assets/tinper-bee.css';
-// 全局样式
+import { render } from 'mirrorx';
+import App from './index';
+
+import 'ucf-common/styles/tinper-bee.css';
+import 'ucf-common/styles/public.less';
 import './app.less';
 
-// 设置mirrorx 路由加载方式
-mirror.defaults({
-    historyMode: "hash"
-});
-
-render(<Router>
-    <Routes />
-</Router>, document.querySelector("#app"));
+render(<App />, document.querySelector("#app"));
