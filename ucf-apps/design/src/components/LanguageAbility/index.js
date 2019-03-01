@@ -17,21 +17,17 @@ class LanguageAbility extends Component {
                 <div className="lang-aspect">
                    <Tile  Component="a" href="" style={{width:200,height:300}}>
                    <div>
-                       <img  src={enterprise}/>
                        <p>在线设计器</p>
                    </div>
                        
                    </Tile>
                    <Tile Component="a" href="" style={{width:200,height:300}}>
-                       <img src={enterprise}/><br/>
                        <p>丰富的模板库</p>
                    </Tile>
                    <Tile  Component="a" href="" style={{width:200,height:300}}>
-                   <img src={enterprise}/><br/>
                        <p>MVVM框架</p>
                    </Tile>
                    <Tile  Component="a" href="" style={{width:200,height:300}}>
-                   <img src={enterprise}/><br/>
                        <p>MVVM框架</p>
                    </Tile>
                 </div>

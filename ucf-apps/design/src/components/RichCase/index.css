@@ -1,22 +1,23 @@
 .richcase-content {
-  height: 739px;
+  height: 100%;
   font-family: PingFang-SC-Medium;
+  background: #e14c46;
 }
-.richcase-content .richcase-content-title {
-  width: 304px;
-  height: 106px;
+.richcase-content .richcase-title {
   font-size: 38px;
-  font-weight: 500;
-  color: #06062a;
-  margin-left: 929px;
-  margin-top: 206px;
+  color: #ffffff;
+  margin-left: 76%;
+  padding-top: 10%;
+  margin-bottom: 1.5%;
 }
-.richcase-content .richcase-button {
+.richcase-content .richcase-btn {
   font-size: 16px;
-  font-family: PingFang-SC-Medium;
-  font-weight: 500;
-  color: #06062a;
-  line-height: 22px;
-  margin-left: 929px;
-  margin-top: 210px;
+  color: #ffffff;
+  margin-left: 76%;
+  margin-bottom: 10%;
+  width: 13%;
+  height: 48px;
+  border-radius: 4px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
 }

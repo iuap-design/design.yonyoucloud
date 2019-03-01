@@ -24,6 +24,7 @@ class ComponentRange extends Component {
                    <Tile Component="a" href=""  className='component-range-aspect-tile'>
                        <img src={keyboardAid}/><br/>
                        <p>全键盘支持</p>
+                       <br/>
                    </Tile>
                    <Tile  Component="a" href=""  className='component-range-aspect-tile'>
                    <img src={globalization}/><br/>

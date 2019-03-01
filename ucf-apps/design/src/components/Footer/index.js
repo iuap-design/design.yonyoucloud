@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { actions } from 'mirrorx';
 import './index.less';
+import { Icon } from 'tinper-bee';
 
 class Footer extends Component {
     render() { //包含事件按钮 
@@ -59,14 +60,14 @@ class Footer extends Component {
                     <h5>联系我们</h5>
                         <ul>
                             <li>
-                                <a href="">400-6815456</a>
+                                <Icon type="uf-tel"/>400-6815456
                             </li>
-                            <li>zhaoyni@yonyou.com</li>
+                            <li><Icon type="uf-mail-o"/>zhaoyni@yonyou.com</li>
                             <li>
-                                北京市海淀区北清路68号用友产业园iuap事业部
+                                <Icon type="uf-map"/>北京市海淀区北清路68号用友产业园iuap事业部
                             </li>
                             <li>
-                                周一至周五9:00-17:00
+                                <Icon type="uf-time-c-o"/>周一至周五9:00-17:00
                             </li>
                         </ul>
                     </div>
@@ -76,7 +77,8 @@ class Footer extends Component {
                 <div className="footer-base">
                     <div className="footer-base-font-container">
                         <p className="footer-base-font">
-                            版权所有：用友网络科技股份有限公司 2016 京ICP备05007539号-7 京ICP证100714号 京公网安备1101080209224号 Made with by FED team 
+                            版权所有：用友网络科技股份有限公司 2016 京ICP备05007539号-7 京ICP证100714号 京公网安备1101080209224号<br/>
+                            Made with by FED team
                         </p>
                     </div>
                 </div>
