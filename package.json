@@ -31,7 +31,7 @@
     "prop-types": "^15.7.1",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
-    "tinper-bee": "^1.6.9",
+    "tinper-bee": "1.6.9",
     "ucf-fe": "^0.1.0",
     "ucf-request": "^1.0.0"
   }
