@@ -4,7 +4,7 @@
 
 import React from 'react';
 import { render } from 'mirrorx';
-import App from './index';
+import App from './indexView/index';
 
 import 'ucf-common/styles/tinper-bee.css';
 import 'ucf-common/styles/public.less';
