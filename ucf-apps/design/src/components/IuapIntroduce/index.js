@@ -12,11 +12,8 @@ class IuapIntroduce extends Component {
                     <p className="iuap-design-ct">专业的B端业务设计体系,基于React.js的完整组件化解决
                     <br/>方案及最佳实践</p>
                     <div className='iuap-design-btns'>
-                        <Button className='u-button'>开始使用</Button>
-                        <Button>GitHub</Button>
-                        <div>
-                            <Button className='iuap-design-btn-bottom'>开始使用</Button>
-                        </div> 
+                        <Button className='start'>开始使用</Button>
+                        <Button className='github'>GitHub</Button>
                     </div>
                     
                 </Col>
