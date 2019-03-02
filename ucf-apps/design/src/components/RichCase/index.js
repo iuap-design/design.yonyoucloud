@@ -10,11 +10,15 @@ class RichCase extends Component {
     render() { //包含事件按钮
         return (
            <div className="richcase-content">
-                <img className="pic" src={richcase}/>
-                <div className="para1" height="288px"></div>
-                <div className="part2" ></div>
-                {/* <p className="richcase-title">丰富案例覆盖典型业务场景</p>
-                 <Button className="richcase-btn"  onClick={this.handleClick}>查看案例</Button> */}
+                <div className="para1"/>
+                <div className="img-div" >
+                    <img className="pic" src={richcase}/>
+                </div>
+                <div className="richcase-text">
+                    <p className="richcase-title-top">丰富案例覆盖典型</p>
+                    <p className="richcase-title-bottom">业务场景</p>
+                    <Button className="richcase-btn"  onClick={this.handleClick}>查看案例</Button>
+                </div>
             </div>
         );
     }
