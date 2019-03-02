@@ -12,7 +12,7 @@ module.exports = (env, argv) => {
         // bootList: true,
         // 启动这两个模块，启动调试、构建
         bootList: [
-            "design"
+            "design","design-lang"
         ],
         // 代理的配置
         proxy: [
