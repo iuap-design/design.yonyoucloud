@@ -14,12 +14,11 @@ class ComponentRange extends Component {
             <div className="component-range-content">
                 <div className="component-range-title">基础组件全覆盖60+</div>
                 <div className="component-range-aspect">
-                   <Tile className='component-range-aspect-tile' Component="a" href=""  >
-                   <div>
-                       <img src={enterprise}/><br/>
-                       <p>企业级</p>
-                   </div>
-                       
+                   <Tile className='component-range-aspect-tile' style={{border:false}} Component="a" href=""  >
+                        <div className="a"> 
+                           <img src={enterprise}/><br/>
+                           <p>企业级</p>
+                        </div>
                    </Tile>
                    <Tile Component="a" href=""  className='component-range-aspect-tile'>
                        <img src={keyboardAid}/><br/>

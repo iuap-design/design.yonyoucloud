@@ -17,10 +17,29 @@
         font-weight:500;
         color:rgba(66,66,66,1);
         line-height:28px;
-        vertical-align:center;//为什么这句不起作用？
+        //vertical-align:center;//为什么这句不起作用？
+        .u-tile{
+            width:18%;
+            height:260px;
+            transition:all .3s;
+            position: relative;
+            margin-right:2px; 
+            margin-bottom:216px;
+            box-shadow:2px 2px 5px #FAFAFA;
+            top:0;
+        }
+            .u-tile:hover{
+                top:-6px;
+                box-shadow:2px 2px 20px #CCCCCC;
+                color:#E14C46;
+            }
         .component-range-aspect-tile{
-            width: 20%;
-            height: 300px;
+            .a{ 
+                img,p{
+                    display:inline-block;
+                    vertical-align:middle;
+                }
+            }
         }
     }
 } 

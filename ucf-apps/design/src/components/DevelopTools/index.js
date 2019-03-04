@@ -93,7 +93,7 @@ class DevelopTools extends Component {
                     components.map((item,index)=>{
                         return (
                             <Col md={4} sm={6} xs={12} key={index}>  
-                                <Tile Component="a" href={item.href}>{item.name}</Tile>
+                                <Tile className="compts" Component="a" href={item.href}>{item.name}</Tile>
                             </Col>
                         )
                     })

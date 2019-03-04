@@ -1,38 +1,40 @@
 import React, { Component } from 'react';
 import { actions } from 'mirrorx';
 import './index.less';
-import { Icon } from 'tinper-bee';
-
+import { Icon,Row,Col } from 'tinper-bee';
+import phone from 'images/phone.png';
+import mail from 'images/mail.png';
+import search from 'images/search.png';
+import time from 'images/time.png';
 class Footer extends Component {
     render() { //包含事件按钮 
         return (
-            <div className="footer">
-                <div className="footer-top-items">
-                    <div className="footer-top-item">
-                        <h5>相关资源</h5>
-                        <ul>
-                            <li>
-                                <a href="https://mock.yonyoucloud.com/">Mock 接口管理平台</a>
-                            </li>
-                            <li>
-                                <a href="https://package.yonyoucloud.com/#/">YNPM-快速、安全、可统计的 包管理平台</a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/tinper-acs/ac-tools">ac-tools 业务组件开发工具</a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/tinper-acs/ac-tools">YYIMSDK 即时通讯 SDK</a>
-                            </li>
-                            <li>
-                                <a href="https://www.yuque.com/ucf-web/book">UCF-WEB 微前端框架</a>
-                            </li>
-                            <li>
-                                <a href="http://tinper.org/webide/">Moy 框架在线示例</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div className="footer-top-item">
-                        <h5>社区</h5>
+            <Row className="footer">
+                <Col md={3} className="footer-top-item">
+                    <h5>相关资源</h5>
+                    <ul>
+                        <li>
+                            <a href="https://mock.yonyoucloud.com/">Mock 接口管理平台</a>
+                        </li>
+                        <li>
+                            <a href="https://package.yonyoucloud.com/#/">YNPM-快速、安全、可统计的 包管理平台</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/tinper-acs/ac-tools">ac-tools 业务组件开发工具</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/tinper-acs/ac-tools">YYIMSDK 即时通讯 SDK</a>
+                        </li>
+                        <li>
+                            <a href="https://www.yuque.com/ucf-web/book">UCF-WEB 微前端框架</a>
+                        </li>
+                        <li>
+                            <a href="http://tinper.org/webide/">Moy 框架在线示例</a>
+                        </li>
+                    </ul>
+                </Col>
+                <Col className="footer-top-item" md={3}>
+                    <h5>社区</h5>
                         <ul>
                             <li>
                                 <a href="https://github.com/iuap-design/blog/issues">云平台体验技术团队BLOG</a>
@@ -41,26 +43,26 @@ class Footer extends Component {
                                 <a href="">tinper 官方技术交流群</a>
                             </li>
                         </ul>
-                    </div>
-                    <div className="footer-top-item">
-                        <h5>帮助</h5>
-                        <ul>
-                            <li>
-                                <a href="https://github.com/tinper-bee">组件Github 源码</a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/iuap-design/tinper-bee/releases">更新记录</a>
-                            </li>
-                            <li>
-                                <a href="">常见问题</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div className="footer-top-item">
+                </Col>
+                <Col className="footer-top-item" md={3}>
+                    <h5>帮助</h5>
+                    <ul>
+                        <li>
+                            <a href="https://github.com/tinper-bee">组件Github 源码</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/iuap-design/tinper-bee/releases">更新记录</a>
+                        </li>
+                        <li>
+                            <a href="">常见问题</a>
+                        </li>
+                    </ul>
+                </Col>
+                <Col className="footer-top-item" md={3}>
                     <h5>联系我们</h5>
                         <ul>
                             <li>
-                                <Icon type="uf-tel"/>400-6815456
+                               <Icon type="uf-tel"/>400-6815456
                             </li>
                             <li><Icon type="uf-mail-o"/>zhaoyni@yonyou.com</li>
                             <li>
@@ -70,19 +72,18 @@ class Footer extends Component {
                                 <Icon type="uf-time-c-o"/>周一至周五9:00-17:00
                             </li>
                         </ul>
+                </Col>
+                <Col className="footer-middle" md={12} >
+                    <div className="footer-line">
                     </div>
-                </div>
-                <div className="footer-middle">
-                </div>
-                <div className="footer-base">
-                    <div className="footer-base-font-container">
-                        <p className="footer-base-font">
-                            版权所有：用友网络科技股份有限公司 2016 京ICP备05007539号-7 京ICP证100714号 京公网安备1101080209224号<br/>
-                            Made with by FED team
-                        </p>
-                    </div>
-                </div>
-            </div>
+                </Col>
+                <Col className="footer-base" md={12}>
+                    <p className="footer-base-font">
+                        版权所有：用友网络科技股份有限公司 2016 京ICP备05007539号-7 京ICP证100714号 京公网安备1101080209224号<br/>
+                        Made with by FED team
+                    </p>
+                </Col>
+            </Row>
         );
     }
 }
