@@ -16,26 +16,33 @@ class ComponentRange extends Component {
                 <div className="component-range-aspect">
                    <Tile className='component-range-aspect-tile' style={{border:false}} Component="a" href=""  >
                         <div className="a"> 
-                           <img src={enterprise}/><br/>
-                           <p>企业级</p>
+                           <img src={enterprise}/>
+                           <span>企业级</span>
                         </div>
                    </Tile>
                    <Tile Component="a" href=""  className='component-range-aspect-tile'>
-                       <img src={keyboardAid}/><br/>
-                       <p>全键盘支持</p>
-                       <br/>
+                       <div className="a"> 
+                           <img src={keyboardAid}/>
+                           <span>全键盘支持</span>
+                       </div>
                    </Tile>
                    <Tile  Component="a" href=""  className='component-range-aspect-tile'>
-                   <img src={globalization}/><br/>
-                       <p>国际化</p>
+                       <div className="a"> 
+                           <img src={globalization}/>
+                           <span>国际化</span>
+                       </div>
                    </Tile>
                    <Tile  Component="a" href="" className='component-range-aspect-tile' >
-                   <img src={compability}/><br/>
-                       <p>兼容性</p>
+                        <div className="a">
+                            <img src={compability}/>
+                            <span>兼容性</span>
+                        </div>   
                    </Tile>
                    <Tile border="false" Component="a" href=""  className='component-range-aspect-tile'>
-                   <img src={customization}/><br/>
-                       <p>定制化</p>
+                       <div  className="a">
+                           <img src={customization}/>
+                           <span>定制化</span>
+                       </div>
                    </Tile>
                 </div>
             </div>

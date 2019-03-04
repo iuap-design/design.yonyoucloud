@@ -10,7 +10,7 @@ class Footer extends Component {
     render() { //包含事件按钮 
         return (
             <Row className="footer">
-                <Col md={3} className="footer-top-item">
+                <Col md={3} xs={12} sm={6} className="footer-top-item">
                     <h5>相关资源</h5>
                     <ul>
                         <li>
@@ -33,7 +33,7 @@ class Footer extends Component {
                         </li>
                     </ul>
                 </Col>
-                <Col className="footer-top-item" md={3}>
+                <Col className="footer-top-item" md={3} xs={12} sm={6}>
                     <h5>社区</h5>
                         <ul>
                             <li>
@@ -44,7 +44,7 @@ class Footer extends Component {
                             </li>
                         </ul>
                 </Col>
-                <Col className="footer-top-item" md={3}>
+                <Col className="footer-top-item" md={3} xs={12} sm={6}>
                     <h5>帮助</h5>
                     <ul>
                         <li>
@@ -58,7 +58,7 @@ class Footer extends Component {
                         </li>
                     </ul>
                 </Col>
-                <Col className="footer-top-item" md={3}>
+                <Col className="footer-top-item" md={3} xs={12} sm={6}>
                     <h5>联系我们</h5>
                         <ul>
                             <li>
@@ -73,11 +73,11 @@ class Footer extends Component {
                             </li>
                         </ul>
                 </Col>
-                <Col className="footer-middle" md={12} >
+                <Col className="footer-middle" md={12} xs={12} sm={12} >
                     <div className="footer-line">
                     </div>
                 </Col>
-                <Col className="footer-base" md={12}>
+                <Col className="footer-base" md={12}  xs={12} sm={12}>
                     <p className="footer-base-font">
                         版权所有：用友网络科技股份有限公司 2016 京ICP备05007539号-7 京ICP证100714号 京公网安备1101080209224号<br/>
                         Made with by FED team
