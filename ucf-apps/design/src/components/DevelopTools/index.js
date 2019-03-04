@@ -21,7 +21,7 @@ const acs = [
         href:'#'
     },
     {
-        name:'上传列表组件',
+        name:'二维码组件',
         href:'#'
     },
     {
@@ -34,6 +34,10 @@ const acs = [
     },
     {
         name:'国际化组件',
+        href:'#'
+    },
+    {
+        name:'条形码组件',
         href:'#'
     },
 ]

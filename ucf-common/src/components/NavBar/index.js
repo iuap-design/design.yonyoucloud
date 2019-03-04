@@ -30,7 +30,9 @@ class NavBar extends Component {
                         <li><a href="">典型案例</a></li>
                         <li>
                             <Select defaultValue="zh_CN" dropdownClassName='nav-lang-select'>
+                                <Option value="zh_TW" disabled={true}>繁体中文</Option>
                                 <Option value="zh_CN">简体中文</Option>
+                                <Option value="en_US" disabled={true}>英文</Option>
                             </Select>
                         </li>
                     </ul>  

@@ -14,31 +14,31 @@ class ComponentRange extends Component {
             <div className="component-range-content">
                 <div className="component-range-title">基础组件全覆盖60+</div>
                 <div className="component-range-aspect">
-                   <Tile className='component-range-aspect-tile' style={{border:false}} Component="a" href=""  >
+                   <Tile  border={false} className='component-range-aspect-tile' style={{border:false}} Component="a" href=""  >
                         <div className="cont"> 
                            <img src={enterprise}/>
                            <span>企业级</span>
                         </div>
                    </Tile>
-                   <Tile Component="a" href=""  className='component-range-aspect-tile'>
+                   <Tile  border={false} Component="a" href=""  className='component-range-aspect-tile'>
                        <div className="cont"> 
                            <img src={keyboardAid}/>
                            <span>全键盘支持</span>
                        </div>
                    </Tile>
-                   <Tile  Component="a" href=""  className='component-range-aspect-tile'>
+                   <Tile   border={false} Component="a" href=""  className='component-range-aspect-tile'>
                        <div className="cont"> 
                            <img src={globalization}/>
                            <span>国际化</span>
                        </div>
                    </Tile>
-                   <Tile  Component="a" href="" className='component-range-aspect-tile' >
+                   <Tile   border={false}  Component="a" href="" className='component-range-aspect-tile' >
                         <div className="cont">
                             <img src={compability}/>
                             <span>兼容性</span>
                         </div>   
                    </Tile>
-                   <Tile border="false" Component="a" href=""  className='component-range-aspect-tile'>
+                   <Tile border={false} Component="a" href=""  className='component-range-aspect-tile'>
                        <div  className="cont">
                            <img src={customization}/>
                            <span>定制化</span>

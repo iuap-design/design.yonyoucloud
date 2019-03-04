@@ -8,7 +8,7 @@ class IuapIntroduce extends Component {
         return (
             <Row className='iuap-design'>
                 <Col md={5} sm={5}>
-                    <p className="iuap-design-h1">iuap design2.0</p><br/>
+                    <p className="iuap-design-h1">iuap design</p><br/>
                     <p className="iuap-design-ct">专业的B端业务设计体系,基于React.js的完整组件化解决
                     <br/>方案及最佳实践</p>
                     <div className='iuap-design-btns'>
