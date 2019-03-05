@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { actions } from 'mirrorx';
-import { Tile } from 'tinper-bee'; 
+import {Row,Col,Tile} from 'tinper-bee';
 import './index.less';
 import enterprise from 'images/enterprise.png';
 import keyboardAid from 'images/keyboardAid.png';
@@ -42,10 +41,10 @@ class ComponentRange extends Component {
                        <div  className="cont">
                            <img src={customization}/>
                            <span>定制化</span>
-                       </div>
-                   </Tile>
+                        </div>
+                    </Tile>
                 </div>
-            </div>
+           </div>
         );
     }
 }

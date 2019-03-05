@@ -12,7 +12,7 @@ class Footer extends Component {
             <div className="footer">
                 <Row className='footer-top'>
                     <Col className="footer-top-item" md={3} xs={12} sm={6} >
-                        <h5>相关资源</h5>
+                        <p>相关资源</p>
                         <ul>
                             <li>
                                 <a href="https://mock.yonyoucloud.com/">Mock 接口管理平台</a>
@@ -35,7 +35,7 @@ class Footer extends Component {
                         </ul>
                     </Col>
                     <Col className="footer-top-item" md={3} xs={12} sm={6}>
-                        <h5>社区</h5>
+                        <p>社区</p>
                             <ul>
                                 <li>
                                     <a href="https://github.com/iuap-design/blog/issues">云平台体验技术团队BLOG</a>
@@ -46,7 +46,7 @@ class Footer extends Component {
                             </ul>
                     </Col>
                     <Col className="footer-top-item" md={3} xs={12} sm={6}>
-                        <h5>帮助</h5>
+                        <p>帮助</p>
                         <ul>
                             <li>
                                 <a href="https://github.com/tinper-bee">组件Github 源码</a>
@@ -60,7 +60,7 @@ class Footer extends Component {
                         </ul>
                     </Col>
                     <Col className="footer-top-item" md={3} xs={12} sm={6}>
-                        <h5>联系我们</h5>
+                        <p>联系我们</p>
                             <ul>
                                 <li>
                                 <img src={phone}/> 400-6815456
