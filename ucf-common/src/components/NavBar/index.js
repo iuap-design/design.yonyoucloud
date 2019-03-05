@@ -8,7 +8,14 @@ const Option = Select.Option;
 
 
 class NavBar extends Component {
-
+    componentDidMount(){
+        docsearch({ 
+            apiKey: 'd388a4977faabf821db64112c8abdcf7', 
+            indexName: 'bee_tinper', 
+            inputSelector: '#componentSearch', 
+            debug: false // Set debug to true if you want to inspect the dropdown 
+        }); 
+    }
     render() {
         return (
             <Row className='nav'>
@@ -18,7 +25,7 @@ class NavBar extends Component {
                     </span>
                     <span className='nav-split'>|</span>
                     <span className='nav-search'>
-                        <FormControl placeholder='在iuap design 中搜索' type='search' />
+                        <FormControl id='componentSearch' placeholder='在iuap design 中搜索' type='search' />
                     </span>
                 </Col>
                 <Col className='nav-right' md={7}>
