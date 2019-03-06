@@ -7,7 +7,7 @@ class Index extends Component {
     render() { 
         return (
             <div className="home" >
-                <NavBar/>
+                <NavBar activeKey='design'/>
                 <Footer/>
             </div>
         );

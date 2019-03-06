@@ -1,19 +1,19 @@
-@primary-color:#E14C46;
+@primary-color:red;
 .nav{
-    position:fixed;
+    position:fixed;//使导航栏浮在页面上
     z-index:999;
     background:white;
     width:100%;
     height:65px;
     line-height: 65px;
-    border-bottom:1px solid #DFDFDF;
+    border-bottom:1px solid #ccc;
     .nav-left{
         .nav-logo{
             display: inline-block;
             img{
                 display: inline-block;
-                //width: 100px;
-                height: 80px;
+                width: 100px;
+                height: 65px;
             }
             i{
                 padding: 0;
@@ -30,7 +30,6 @@
             margin: 0 20px;
         }
         .nav-search{
-            color:#959AA5;
             #componentSearch{
                 vertical-align: unset!important;
             }
@@ -51,14 +50,11 @@
     .nav-right{
         .nav-options{
             float: right;
-                .first-show{
-                  color:#E14C46;
-                }
                 li{
                     float: left;
                     margin-right:38px;
                     .u-select{
-                        min-width: 100px;
+                        min-width: 85px;
                         font-size: 14px;
                         color: #444;
                         .u-select-arrow{

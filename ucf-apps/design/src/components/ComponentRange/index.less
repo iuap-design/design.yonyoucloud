@@ -1,34 +1,39 @@
 .component-range-content {
-    font-family:PingFang-SC-Medium;
-    text-align:center;
     width:100%;
     height:100%;
+    float:none;
+   padding:0 50px;
+   padding-left:12%;
+   padding-right:12%;
+    display:inline-block;
+    text-align:center;
     .component-range-title { 
         font-size:38px;
         font-weight:500;
         color:rgba(43,45,66,1);
         margin-top:161px;
         margin-bottom:70px;
+        text-align:center;
     }
     .component-range-aspect {
-        margin:0 auto;
-        width:80%;  
-        font-size:25px; 
+        font-size:100px; 
         font-weight:500;
         color:rgba(66,66,66,1);
         line-height:28px;
         .u-tile{
-            width:18%;
-            height:260px;
+            min-width:210px;
+            min-height:300px;
             transition:all .3s;
             position: relative;
-            margin-right:2px; 
+           // margin-right:0;
+            //margin-left:0; 
             margin-bottom:216px;
             top:0;
+
         }
         .u-tile:hover{
             top:-6px;
-            box-shadow:2px 2px 20px #CCCCCC;
+            box-shadow:0px 0px 20px 0px rgba(0,0,0,0.1);
             color:#E14C46;
         }
         .component-range-aspect-tile{
@@ -44,3 +49,4 @@
         }
     }
 } 
+

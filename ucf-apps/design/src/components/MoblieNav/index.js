@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { actions } from 'mirrorx';
 import { Button,Row,Col,FormControl,Dropdown,Menu,Select,Icon,InputGroup } from 'tinper-bee';
 import logo from 'images/iuapdesignz.svg';
-import classnames from 'classnames';
 
 import './index.less';
 
@@ -10,27 +9,7 @@ const Option = Select.Option;
 
 
 class NavBar extends Component {
-    constructor(props){
-        super(props);
-        this.state={
-            activeKey:this.props.activeKey
-        }
-    }
-    componentDidMount(){
-        docsearch({ 
-            apiKey: 'd388a4977faabf821db64112c8abdcf7', 
-            indexName: 'bee_tinper', 
-            inputSelector: '#componentSearch', 
-            debug: false // Set debug to true if you want to inspect the dropdown 
-        }); 
-    }
-    // click=(key)=>{
-    //     this.setState({
-    //         activeKey:key
-    //     })
-    // }
     render() {
-        let activeKey = this.state.activeKey;
         return (
             <Row className='nav'>
                 <Col className='nav-left' md={5}>
@@ -44,8 +23,8 @@ class NavBar extends Component {
                 </Col>
                 <Col className='nav-right' md={7}>
                     <ul className="nav-options">
-                        <li><a className={classnames({"first-show":activeKey=='index'})} href="" >首页</a></li>
-                        <li><a href="javascript:void(0)" className={classnames({"first-show":activeKey=='design'})} >设计语言</a></li>
+                        <li><a href="">首页</a></li> 
+                        <li><a href="">设计语言</a></li>
                         <li><a href="">基础组件</a></li>
                         <li><a href="">应用组件</a></li>
                         <li><a href="">典型案例</a></li>
@@ -57,7 +36,6 @@ class NavBar extends Component {
                             </Select>
                         </li>
                     </ul>  
-                   
                 </Col>          
             </Row>
         );
