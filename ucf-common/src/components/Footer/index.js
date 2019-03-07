@@ -4,7 +4,7 @@ import './index.less';
 import { Icon,Row,Col } from 'tinper-bee';
 import phone from 'images/phone.png';
 import mail from 'images/mail.png';
-import search from 'images/search.png';
+import address from 'images/address.png';
 import time from 'images/time.png';
 class Footer extends Component {
     render() { //包含事件按钮 
@@ -18,7 +18,7 @@ class Footer extends Component {
                                 <a href="https://mock.yonyoucloud.com/">Mock 接口管理平台</a>
                             </li>
                             <li>
-                                <a href="https://package.yonyoucloud.com/#/">YNPM-快速、安全、可统计的 包管理平台</a>
+                                <a href="https://package.yonyoucloud.com/#/">YNPM-用友Node镜像服务</a>
                             </li>
                             <li>
                                 <a href="https://github.com/tinper-bee/bee-tools">bee-tools 基础组件开发工具</a>
@@ -72,7 +72,7 @@ class Footer extends Component {
                                 <img src={phone}/> 400-6815456
                                 </li> */}
                                 <li>
-                                    <img src={search}/> 北京市海淀区北清路68号用友产业园
+                                    <img src={address}/> 北京市海淀区北清路68号用友产业园
                                 </li>
                                 <li><img src={mail}/> guoyff@yonyou.com</li>
                                 {/* <li>

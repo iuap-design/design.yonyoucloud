@@ -1,7 +1,9 @@
+
+
 .delop-tool{
     font-size:38px;
     color:rgba(66,66,66,1);  
-    min-height:708px;
+    max-height:700px;
     margin:0 auto;
     display:block;
     text-align:center;  
@@ -10,42 +12,48 @@
         font-weight:500; 
     }
     .tool-content{
-        .u-tabs{
-            margin:0 auto;
-            font-size:50px;
-            .u-tabs-upborder .u-tabs-nav .u-tabs-tab{
-                padding:20 30 60 30;
-             }
-             .u-tabs-bar{
-                margin: 0 auto;
-                //width: 742px;
-                width: 75%;
-             }
-        }
-        min-height:300px;
         .demo1-tabs{
+            min-height:300px;
             margin-bottom: 40px;
             width:100%;
-        }
             .item{
-                  padding-top:53px;
+                padding-top:53px;
+                font-size:20px;
+                .u-tile{
+                    text-align:center;
+                    transition:all .5s;
+                    font-size:14px;
+                    width:310px;
+                    height:74px;
+                    //padding:10 50px;
+                    padding-right:10px;
+                    padding-left:10px;
+                    margin-top:8px;
+                }
+                .u-tile:hover{
+                    top:-2px;
+                    box-shadow:0px 0px 20px 0px rgba(0,0,0,0.2);
+                    color: rgba(225,76,70,1);
+                }
             }
-            
-        .u-tile{
-            text-align:center;
-            font-size:14px;
-            width:300px;
-            height:74px;
-            padding:10 50px;
-            padding-right:10px;
-            padding-left:10px;
-            margin-top:20px;
         }
-
-        .u-tile:hover{
-            top:-3px;
-            box-shadow:0px 0px 20px 0px rgba(0,0,0,0.2);
-            color: rgba(225,76,70,1);
+        .u-tabs{
+            display:block;
+            width:80%;
+            margin:0 auto;
+            font-size:50px;
+        } 
+        .u-tabs-upborder .u-tabs-nav .u-tabs-tab{
+            padding:20 20 20 20;
+        }
+        .u-tabs-bar{
+            margin: 0 auto;
+            width: 90%;
+        }
+        .u-tabs-tab{
+            font-size:20px;
+            font-weight:500;
+            color:rgba(66,66,66,1);
         }
     }
     .tool-more-container{
@@ -55,8 +63,8 @@
             background:rgba(225,76,70,1);
             border-radius:4px;
             text-align:center;
-            margin-top:80px;
-            margin:0 auto;
+            margin-top:35px;
+            margin-bottom:100px;
             font-size:16px;
             color:rgba(255,255,255,1);
         }
@@ -70,8 +78,8 @@
     .u-tabs .u-tabs-ink-bar{
         background-color: rgba(225, 76, 70, 1);
     }
+    
 }
-
 .tool-content .u-tabs-top{
     border:none;
     .u-tabs-tab{
@@ -80,8 +88,6 @@
     }
    
 }
-
-
 .u-tabs-upborder .u-tabs-nav .u-tabs-tab-active {
     color: rgba(225, 76, 70, 1);
 }

@@ -46,9 +46,9 @@ class NavBar extends Component {
                     <ul className="nav-options">
                         <li><a className={classnames({"first-show":activeKey=='index'})} href="" >首页</a></li>
                         <li><a href="javascript:void(0)" className={classnames({"first-show":activeKey=='design'})} >设计语言</a></li>
-                        <li><a href="">基础组件</a></li>
-                        <li><a href="">应用组件</a></li>
-                        <li><a href="">典型案例</a></li>
+                        <li><a href="https://design.yonyoucloud.com/tinper-bee/">基础组件</a></li>
+                        <li><a href="https://sdesign.yonyoucloud.com/tinper-acs/">应用组件</a></li>
+                        <li><a href="https://design.yonyoucloud.com/case/preview">典型案例</a></li>
                         <li>
                             <Select defaultValue="zh_CN" dropdownClassName='nav-lang-select'>
                                 <Option value="zh_TW" disabled={true}>繁体中文</Option>

@@ -194,7 +194,7 @@ class DevelopTools extends Component {
                                     <Tile>上传列表 AcAttachment </Tile>
                                 </Col>
                             </Row>
-                </TabPane>
+                       </TabPane>
                         <TabPane className="item" tab='表格' key="5">
                             <Row>
                                 <Col md={4} ms={6} xs={12}>
@@ -231,7 +231,7 @@ class DevelopTools extends Component {
                     </Tabs>
                 </div>
                 <div className="tool-more-container">
-                    <Button  className="tool-more-btn" >查看更多</Button>
+                    <Button  className="tool-more-btn" onClick={()=>{window.location.href="https://design.yonyoucloud.com/tinper-acs/"}} >查看更多</Button>
                 </div>   
             </div>
 
