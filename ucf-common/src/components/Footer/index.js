@@ -21,6 +21,9 @@ class Footer extends Component {
                                 <a href="https://package.yonyoucloud.com/#/">YNPM-快速、安全、可统计的 包管理平台</a>
                             </li>
                             <li>
+                                <a href="https://github.com/tinper-bee/bee-tools">bee-tools 基础组件开发工具</a>
+                            </li>
+                            <li>
                                 <a href="https://github.com/tinper-acs/ac-tools">ac-tools 业务组件开发工具</a>
                             </li>
                             <li>
@@ -31,6 +34,9 @@ class Footer extends Component {
                             </li>
                             <li>
                                 <a href="http://tinper.org/webide/">Moy 框架在线示例</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/lebra/lebra-components">lebra-components 移动组件库</a>
                             </li>
                         </ul>
                     </Col>
@@ -62,16 +68,16 @@ class Footer extends Component {
                     <Col className="footer-top-item" md={3} xs={12} sm={6}>
                         <p><b>联系我们</b></p>
                             <ul>
-                                <li>
+                                {/* <li>
                                 <img src={phone}/> 400-6815456
-                                </li>
-                                <li><img src={mail}/> zhaoyni@yonyou.com</li>
+                                </li> */}
                                 <li>
-                                    <img src={search}/> 北京市海淀区北清路68号用友产业园iuap事业部
+                                    <img src={search}/> 北京市海淀区北清路68号用友产业园
                                 </li>
-                                <li>
+                                <li><img src={mail}/> guoyff@yonyou.com</li>
+                                {/* <li>
                                     <img src={time}/> 周一至周五9:00-17:00
-                                </li>
+                                </li> */}
                             </ul>
                     </Col>
                 </Row>
