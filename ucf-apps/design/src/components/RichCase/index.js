@@ -14,8 +14,7 @@ class RichCase extends Component {
                     <img className="pic" src={richcase}/>
                 </div>
                 <div className="richcase-text">
-                    <p className="richcase-title-top">丰富案例覆盖典型</p>
-                    <p className="richcase-title-bottom">业务场景</p>
+                    <p className="richcase-title">丰富案例覆盖典型业务场景</p>
                     <Button className="richcase-btn">查看案例</Button>
                 </div>
             </div>
