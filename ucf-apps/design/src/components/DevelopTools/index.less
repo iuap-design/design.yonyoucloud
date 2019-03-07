@@ -2,37 +2,54 @@
     font-size:38px;
     color:rgba(66,66,66,1);  
     height:708px;
-    margin:0 auto;  
+    margin:0 auto;
+    display:block;
+    text-align:center;  
     .tool-title{
-        //margin:0 auto;
         font-size:38px;
-        font-weight:500;          
+        font-weight:500; 
     }
     .tool-content{
         .u-tabs{
             margin:0 auto;
             font-size:50px;
+            .u-tabs-upborder .u-tabs-nav .u-tabs-tab{
+                padding:20 30 60 30;
+             }
+             .u-tabs-bar{
+                margin: 0 auto;
+                //width: 742px;
+                width: 75%;
+             }
+             .u-tabs-tab-active .u-tabs-tab{////////////////////////
+                color: rgba(225,76,70,1);
+             }
         }
         min-height:300px;
         .demo1-tabs{
             margin-bottom: 40px;
-            width: 1400px;
-          }
+            width:100%;
+        }
+            .item{
+                  padding-top:53px;
+            }
+            
         .u-tile{
-            display:inline-block;
-            float:none;
             text-align:center;
             font-size:14px;
             width:300px;
             height:74px;
             padding:10 50px;
+            padding-right:10px;
+            padding-left:10px;
+            margin-top:20px;
         }
+
         .u-tile:hover{
-            top:-6px;
+            top:-3px;
             box-shadow:0px 0px 20px 0px rgba(0,0,0,0.2);
-            color:#E14C46;
+            color: rgba(225,76,70,1);
         }
-          
     }
     .tool-more-container{
         .u-button{
@@ -43,9 +60,39 @@
             text-align:center;
             margin-top:80px;
             margin:0 auto;
+            font-size:16px;
+            color:rgba(255,255,255,1);
+        }
+        .u-button:hover{
+            background:rgba(189,66,62,1);
         }
     }
 }
+
+.tool-content .u-tabs-top{
+    border:none;
+    .u-tabs-tab{
+        margin-left:15px;
+        margin-right:15px;//默认的是30
+    }
+   
+}
+
+// .u-tabs-downborder .u-tabs-nav .u-tabs-tab-active {
+//     color: rgb(245, 60, 50);
+//     cursor: default; 
+// }
+
+.u-tabs-upborder .u-tabs-nav .u-tabs-tab-active {
+    color: rgba(225, 76, 70, 1);
+}
+// .u-tabs-tab{
+//     .u-tabs-tab:hover{
+//        color: rgba(225, 76, 70, 1);
+//     }
+// }
+
+
 
 // .delop-tool{
 //     margin:0 auto;

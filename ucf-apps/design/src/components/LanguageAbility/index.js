@@ -24,7 +24,7 @@ class LanguageAbility extends Component {
                 </Col>
                 <Col className="lang-base-first" md={3} xs={6} sm={6}>
                     <div>
-                         <div class="red-radius"></div>
+                         <div class="white-radius"></div>
                          <p>明确清晰</p>
                     </div>
                 </Col>
