@@ -6,23 +6,34 @@ import './index.less';
 class IuapIntroduce extends Component {
     render() {
         return (
-            <Row className='iuap-design'>
-                <Col md={5} sm={5}>
-                    <p className="iuap-design-h1">iuap design</p>
-                    <p className="iuap-design-ct">专业的B端业务设计体系，基于React.js的完整组件化解决方案及最佳实践</p>
-                    <div className='iuap-design-btns'>
-                        <Button className='start'  onClick={()=>{window.location.href="https://design.yonyoucloud.com/tinper-bee/"}}>开始使用</Button>
-                        <Button className='github' onClick={()=>{window.location.href="https://github.com/iuap-design"}}>GitHub</Button>
-                    </div>
-                    
-                </Col>
-                
-                <Col md={7} sm={7} className="pic">
-                    <img src={introduce}/>
-                </Col>
-            </Row>
+            <div>
+                <Row className='iuap-design'>
+                    <Col md={5} sm={5}>
+                        <p className="iuap-design-h1">iuap design</p>
+                        <p className="iuap-design-ct">专业的B端业务设计体系，基于React.js的完整组件化解决方案及最佳实践</p>
+                        <div className='iuap-design-btns'>
+                            <Button className='start'  onClick={()=>{window.location.href="https://design.yonyoucloud.com/tinper-bee/"}}>开始使用</Button>
+                            <Button className='github' onClick={()=>{window.location.href="https://github.com/iuap-design"}}>GitHub</Button>
+                        </div>
+                    </Col>
+                    <Col md={7} sm={7} className="pic">
+                        <img src={introduce}/>
+                    </Col>
+                </Row>
+                <Row className="mob-iuap-design">
+                    <Col className="mob-pic" md={12} ms={12} xs={12}>
+                        <img src={introduce}/>
+                    </Col>
+                  <Col className="mob-iuap-ct" md={12} ms={12} xs={12}>
+                        专业的B端业务设计体系，基于React.js的完整组件化解决方案及最佳实践
+                    </Col>
+                  <Col className="mob-btns">
+                        <Button className="mob-start" onClick={()=>{window.location.href="https://design.yonyoucloud.com/tinper-bee/"}}>开始使用</Button>
+                        <Button className="mob-github" onClick={()=>{window.location.href="https://github.com/iuap-design"}}>GitHub</Button>
+                  </Col>
+                </Row>
+            </div>
         );
     }
 }
-
 export default IuapIntroduce;

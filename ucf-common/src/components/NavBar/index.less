@@ -7,6 +7,7 @@
     height:65px;
     line-height:65px;
     border-bottom:1px solid #DFDFDF;
+    font-size:14px;
     .nav-left{
         .nav-logo{
             display: inline-block;
@@ -29,10 +30,18 @@
             margin: 0 20px;
         }
         .nav-search{
-            color:#959AA5;
+            color:white;
             #componentSearch{
                 vertical-align: unset!important;
+                // input::-webkit-input-placeholde{
+                //     color:white;
+                //     font-size:14px;
+                // }
             }
+             input::-webkit-input-placeholde{
+                    color:white;
+                    font-size:14px;
+                }
             .u-form-control-affix-wrapper{
                 width: auto;
                 .u-form-control{
@@ -129,9 +138,25 @@
   }
 
 
+input::-webkit-input-placeholder{////////////////////////////搜索栏字体的颜色
+      color:#959AA5;
+      font-size:14px;
+}
 
-//   @media screen and (max-width: 960px){
-//     .a{
-//         display:none;
-//     }
-// }
+.mob-nav{
+
+}
+
+
+@media screen and (max-width:800px){
+  .nav{
+      display:none;
+  }
+}
+
+
+@media screen and (min-width:800px){
+  .mob-nav{
+      display:none;
+  }
+}

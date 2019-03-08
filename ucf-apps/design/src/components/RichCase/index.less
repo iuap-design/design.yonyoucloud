@@ -11,7 +11,7 @@
             height:610px; 
             vertical-align:middle;
             margin-bottom:20px;
-            //margin-bottom:20px;
+            //margin-bottom:20px;s
          }
     }
     .para1{
@@ -56,15 +56,48 @@
             background: #BD423E;
         }
     }
-
-    // @media screen and (max-width:400px){
-    //     .img-div{
-    //         display:none;
-    //     } 
-    //     .richcase-text{
-    //         float:right;
-    //     }
-    // }
 }
 
 
+.mob-richcase-content{
+    height:667px;
+    background:rgba(39,48,67,1);
+    .pic{
+        height:380px;
+    }
+    .content{
+        .richcase-title{
+            width:240px;
+            height:112px;
+            font-size:40px;
+            font-weight:500;
+            color:rgba(255,255,255,1);
+            line-height:56px;      
+        }
+        .richcase-btn{
+            width:375px;
+            height:667px;
+            background:rgba(225,76,70,1);
+            border-radius:2px;
+            font-size:16px;
+            font-weight:500;
+            color:rgba(255,255,255,1);
+            line-height:22px;
+        }
+    }
+}
+
+
+
+@media screen and (max-width:800px){
+    .richcase-content{
+        display:none;
+    }
+  }
+  
+  
+@media screen and (min-width:800px){
+    .mob-richcase-content{
+        display:none;
+    }
+}

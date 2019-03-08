@@ -32,7 +32,8 @@ class NavBar extends Component {
     render() {
         let activeKey = this.state.activeKey;
         return (
-            <Row className='nav'>
+            <div>
+                <Row className='nav'>
                 <Col className='nav-left' md={5}>
                     <span className='nav-logo '>
                         <img src={logo} />
@@ -57,9 +58,16 @@ class NavBar extends Component {
                             </Select>
                         </li>
                     </ul>  
-                   
                 </Col>          
             </Row>
+            <Row className="mob-nav">
+                <Col md={8}>
+                    <img src={logo}/>
+                </Col>
+                <Col md={4}>
+                </Col>
+            </Row>
+            </div> 
         );
     }
 }
