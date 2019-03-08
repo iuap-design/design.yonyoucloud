@@ -47,14 +47,6 @@ class ComponentRange extends Component {
                     </div>   
                 </Tile>
             </Col>
-            {/* <Col className="component-range-aspect"  md={2} sm={4} xs={6}>
-                <Tile   border={true}  Component="a" href="" className='component-range-aspect-tile' >
-                    <div className="cont">
-                        <img src={compability}/>
-                        <span>多端兼容性</span>
-                    </div>   
-                </Tile>
-            </Col> */}
             <Col className="component-range-aspect  order"  md={4} sm={12} xs={12}>
                 <Tile border={true} Component="a" href=""  className='component-range-aspect-tile'>
                     <div  className="cont">

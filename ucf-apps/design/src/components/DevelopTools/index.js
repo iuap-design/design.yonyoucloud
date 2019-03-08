@@ -90,8 +90,6 @@ class DevelopTools extends Component {
                     <Button  className="tool-more-btn" onClick={()=>{window.location.href="https://design.yonyoucloud.com/tinper-acs/"}} >查看更多</Button>
                 </div>   
             </div>
-
-            
         )
     }
 }
