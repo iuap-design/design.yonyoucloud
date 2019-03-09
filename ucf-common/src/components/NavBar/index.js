@@ -10,12 +10,7 @@ const Option = Select.Option;
 
 
 class NavBar extends Component {
-    constructor(props){
-        super(props);
-        this.state={
-            activeKey:this.props.activeKey
-        }
-    }
+
     componentDidMount(){
         docsearch({ 
             apiKey: 'd388a4977faabf821db64112c8abdcf7', 
@@ -24,13 +19,7 @@ class NavBar extends Component {
             debug: false // Set debug to true if you want to inspect the dropdown 
         }); 
     }
-    // click=(key)=>{
-    //     this.setState({
-    //         activeKey:key
-    //     })
-    // }
     render() {
-        let activeKey = this.state.activeKey;
         return (
             <div>
                 <Row className='nav'>
@@ -45,11 +34,11 @@ class NavBar extends Component {
                 </Col>
                 <Col className='nav-right' md={7}>
                     <ul className="nav-options">
-                        <li><a className={classnames({"first-show":activeKey=='index'})} href="" >首页</a></li>
-                        <li><a href="javascript:void(0)" className={classnames({"first-show":activeKey=='design'})} >设计语言</a></li>
-                        <li><a href="https://design.yyuap.com/tinper-bee/">基础组件</a></li>
-                        <li><a href="https://design.yyuap.com/tinper-acs/">应用组件</a></li>
-                        <li><a href="https://design.yyuap.com/case/preview">典型案例</a></li>
+                        <li><a className="first-show" href="#" >首页</a></li>
+                        <li><a href="" >设计语言</a></li>
+                        <li><a href="//design.yyuap.com/tinper-bee/">基础组件</a></li>
+                        <li><a href="//design.yyuap.com/tinper-acs/">应用组件</a></li>
+                        <li><a href="//design.yyuap.com/case/preview">典型案例</a></li>
                         <li>
                             <Select defaultValue="zh_CN" dropdownClassName='nav-lang-select'>
                                 <Option value="zh_CN">简体中文</Option>
