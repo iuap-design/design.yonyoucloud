@@ -36,9 +36,9 @@ class NavBar extends Component {
                     <ul className="nav-options">
                         <li><a className="first-show" href="#" >首页</a></li>
                         <li><a href="" >设计语言</a></li>
-                        <li><a href="//design.yyuap.com/tinper-bee/">基础组件</a></li>
-                        <li><a href="//design.yyuap.com/tinper-acs/">应用组件</a></li>
-                        <li><a href="//design.yyuap.com/case/preview">典型案例</a></li>
+                        <li><a href="//design.yyuap.com/tinper-bee">基础组件</a></li>
+                        <li><a href="//design.yyuap.com/tinper-acs">应用组件</a></li>
+                        <li><a href="//design.yyuap.com/case/preview" target="_blank">典型案例</a></li>
                         <li>
                             <Select defaultValue="zh_CN" dropdownClassName='nav-lang-select'>
                                 <Option value="zh_CN">简体中文</Option>
