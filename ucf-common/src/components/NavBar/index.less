@@ -11,6 +11,8 @@
     .nav-left{
         .nav-logo{
             display: inline-block;
+            margin-left:60px;
+            margin-right:75px;
             img{
                 height: 24px;
                 vertical-align:middle;
@@ -91,9 +93,6 @@
 }
 
 .mob-nav{//移动端导航栏
-    //position:fixed;
-   // z-index:999;
-   // background:white;
     width:100%;
     height:65px;
     line-height:65px;
@@ -101,9 +100,6 @@
     font-size:14px;
     display:inline-block;
     text-align:center;
-    // .nav-logo{
-    //  width:70%;
-    // }
     img{
       display:inline-block;
       text-align:center;
@@ -111,30 +107,18 @@
     }
     .nav-content{
        float:right;
-       // display:inline-block;
-       margin-left:80px;
-       margin-right:5px;
-       //position:absolute;
+       right:3px;
        position:fixed;
        z-index:999;
-      //   .u-select{
-      //       padding-right:40px;
-      //       display:inline-block;
-      //       width:240px;
-      //       max-width:100px;
-      //       font-size: 14px;
-      //       color: #444;
-      //       .u-select-selection {
-      //       border: none;
-      //       }  
-      //  }
       .uf-navmenu{
         margin-left:2px;
       }
-      
       .u-button{
         background:transparent;
       }
+    }
+    a{
+        color:rgba(66,66,66,1);
     }
 }
 
@@ -148,6 +132,11 @@
         .u-dropdown-menu-item:active,.u-dropdown-menu-item-active,.u-dropdown-menu-item-selected:hover{
           color:#E14C46;
           background:rgba(240,240,240,1);
+        }
+        .u-dropdown-menu-item{
+            a{
+              color:rgba(66, 66, 66, 1);
+            }
         }
     }
     

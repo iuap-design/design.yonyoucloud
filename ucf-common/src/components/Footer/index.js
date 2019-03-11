@@ -10,7 +10,7 @@ class Footer extends Component {
     render() { //包含事件按钮 
         return (
             <div className="footer">
-                <Row className='footer-top'>
+                <Row className=''>
                     <Col className="footer-top-item" md={3} xs={12} sm={6} >
                         <p><b>相关资源</b></p>
                         <ul>
@@ -68,16 +68,10 @@ class Footer extends Component {
                     <Col className="footer-top-item" md={3} xs={12} sm={6}>
                         <p><b>联系我们</b></p>
                             <ul>
-                                {/* <li>
-                                <img src={phone}/> 400-6815456
-                                </li> */}
                                 <li>
                                     <img src={address}/> 北京市海淀区北清路68号用友产业园
                                 </li>
                                 <li><img src={mail}/> guoyff@yonyou.com</li>
-                                {/* <li>
-                                    <img src={time}/> 周一至周五9:00-17:00
-                                </li> */}
                             </ul>
                     </Col>
                 </Row>
@@ -88,10 +82,10 @@ class Footer extends Component {
                     </Col>
                     <Col className="footer-base" md={12}  xs={12} sm={12}>
                         <div className="footer-base-font">
-                            <p>
+                            <p className="copy-right" >
                                 版权所有：用友网络科技股份有限公司 2016 京ICP备05007539号-7 京ICP证100714号 京公网安备1101080209224号
                             </p>
-                            <p>
+                            <p className="produ">
                                 Made with by FED team
                             </p>
                         </div>

@@ -37,7 +37,7 @@ const btns = {
     txh:{
         name:'图形化',
         key:'txh',
-        acs:['温度计/液位计 AcThermometer','液位计']
+        acs:['温度计Thermometer','液位计ContentGage']
     }
 }
 

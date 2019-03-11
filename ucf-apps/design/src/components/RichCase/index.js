@@ -21,7 +21,7 @@ class RichCase extends Component {
             <div>
                 <Row className="richcontent" style={{backgroundImage:`url(${png1})`}}>
                 {/* <Row className="richcontent" style={bgGround}> */}
-                    <Col  className="img-div" md={7} >
+                    <Col className="img-div" md={7} >
                          <img className="pic" src={richcase}/>
                     </Col>
                     <Col className="richcase-text" md={5}>

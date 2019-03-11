@@ -53,9 +53,9 @@ class NavBar extends Component {
               onSelect={onSelect}>
               <Item key="1" className="first-show">首页</Item>
               <Item key="2">设计语言</Item>
-              <Item key="3">基础组件</Item>
-              <Item key="4">应用组件</Item>
-              <Item key="5">典型案例</Item>
+              <Item key="3"><a href="//design.yyuap.com/tinper-bee">基础组件</a></Item>
+              <Item key="4"><a href="//design.yyuap.com/tinper-acs">应用组件</a></Item>
+              <Item key="5"><a href="//design.yyuap.com/tinper-acs">典型案例</a></Item>
             </Menu>
         );
 
@@ -65,7 +65,7 @@ class NavBar extends Component {
                 <Row className='nav'>
                 <Col className='nav-left' md={5}>
                     <span className='nav-logo '>
-                        <img src={logo} />
+                        <a href="http://127.0.0.1:3000/design"><img src={logo} /></a>
                     </span>
                     <span className='nav-split'>|</span>
                     <span className='nav-search'>
@@ -90,21 +90,7 @@ class NavBar extends Component {
                 </Col>          
             </Row>
             <div className="mob-nav">
-                {/* <span className='nav-logo '> */}
                    <img src={logo} />
-                {/* </span> */}
-
-                {/* 下拉菜单 */}
-                {/* <span className="nav-content">
-                    <Select  dropdownClassName='nav-content'>
-                        <Option value="homepage">首页</Option>
-                        <Option value="design_lang">设计语言</Option>
-                        <Option value="base_comp">基础组件</Option>
-                        <Option value="apply_comp">应用组件</Option>
-                        <Option value="spec_case">典型案例</Option>
-                    </Select>
-               </span> */}
-
                <span className="nav-content">
                    <Dropdown
                         trigger={['click']}
