@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import { actions } from 'mirrorx';
 import { Button,Row,Col,FormControl,Dropdown,Menu,Select,Icon,InputGroup } from 'tinper-bee';
 import logo from 'images/iuapdesignz.svg';
-import classnames from 'classnames';
 
 import './index.less';
 
@@ -53,7 +51,7 @@ class NavBar extends Component {
         const menu1 = (
             <Menu
               onSelect={onSelect}>
-              <Item key="1">首页</Item>
+              <Item key="1" className="first-show">首页</Item>
               <Item key="2">设计语言</Item>
               <Item key="3">基础组件</Item>
               <Item key="4">应用组件</Item>
