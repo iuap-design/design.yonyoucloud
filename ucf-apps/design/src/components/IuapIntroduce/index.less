@@ -1,103 +1,119 @@
-.iuap-design{
-    padding-top:125px;
-    height: calc ( 100% - 65px);
-    font-family:PingFang-SC-Medium;
-    display: inline-block;
-    padding-left:5%;
-    .iuap-design-h1{
-        font-size:60px;
-        font-weight:800;
-        color:rgba(51,51,51,1);
-        padding-top:20%;
-        // padding-top:214px;
-        margin-bottom:2px;
-    }
-    .iuap-design-ct{
-        font-size:20px;
-        font-weight:500;
-        margin-bottom:1px;
-        color:rgba(51,51,51,1);
-    }
-    .iuap-design-btns{
-        margin-top:60px;
-        .u-button{
-            margin-right: 20px;
-            width:190px;
-            height:48px;
-            background:#E14C46;
-            font-size:16px;
+.iuap{
+    .iuap-design{
+        padding-top:125px;
+        height: calc ( 100% - 65px);
+        font-family:PingFang-SC-Medium;
+        display: inline-block;
+        padding-left:5%;
+        .iuap-design-h1{
+            font-size:60px;
+            font-weight:800;
+            color:rgba(51,51,51,1);
+            padding-top:20%;
+            // padding-top:214px;
+            margin-bottom:2px;
+        }
+        .iuap-design-ct{
+            font-size:20px;
             font-weight:500;
+            margin-bottom:1px;
+            color:rgba(51,51,51,1);
         }
-        .start{
-            color:#fff;
+        .iuap-design-btns{
+            margin-top:60px;
+            .u-button{
+                margin-right: 20px;
+                width:190px;
+                height:48px;
+                background:#E14C46;
+                font-size:16px;
+                font-weight:500;
+            }
+            .start{
+                color:#fff;
+            }
+            .start:hover{
+                background: #BD423E;
+            }
+            .github{
+                width:190px;
+                border-radius:4px;
+                border:1px solid #E14C46;
+                color: #E14C46;
+                background: #fff;
+            }
         }
-        .start:hover{
-            background: #BD423E;
-        }
-        .github{
-            width:190px;
-            border-radius:4px;
-            border:1px solid #E14C46;
-            color: #E14C46;
-            background: #fff;
+        .pic{
+            margin-top:13px;
+            img{
+                width: 100%;
+            }
+            padding-bottom:50px;
+            padding-right:4%;
         }
     }
-    .pic{
-        margin-top:13px;
-        img{
-            width: 100%;
+    
+    
+    .mob-iuap-design{
+        display:inline-block;
+        text-align:center;
+        min-height:600px;
+        .pic-div{
+            margin-top:94px;
+            .pic{
+                height:286px;
+            }
         }
-        padding-bottom:50px;
-        padding-right:4%;
+        .mob-iuap-ct{
+           height:84px;
+           font-size:20px;
+           color:rgba(66,66,66,1);
+           line-height:28px;
+           font-weight:500;
+           width:75%;
+           display:inline-block;
+           text-align:center;
+           margin-top:40px;
+        }
+        .mob-btns{
+            margin-bottom:60px;
+            margin-top:37px;
+            .u-button{
+                margin-right: 10px;
+                width:160px;
+                height:48px;
+                border-radius:4px;
+                border:1px solid rgba(225, 76, 70, 1);
+                font-size:16px;
+                font-weight:500;
+                color:#fff;
+            }
+            .mob-start{
+                background: rgba(225, 76, 70, 1);
+            }
+            .mob-start:hover{
+                background: #BD423E;
+            }
+            .mob-github{
+                background: #fff;
+                color:rgba(225, 76, 70, 1);
+            }
+        }
     }
 }
 
-
-.mob-iuap-design{
-    text-align:center;
-    height:608px;
-    .mob-pic{
-        width:90%;
-        height:286px;
-    }
-    .mob-iuap-ct{
-       height:84px;
-       font-size:20px;
-       color:rgba(66,66,66,1);
-       line-height:28px;
-       font-weight:500;
-    }
-    .mob-btns{
-        .u-button{
-            margin-right: 10px;
-            width:160px;
-            height:48px;
-            border-radius:4px;
-            border:1px solid rgba(225, 76, 70, 1);
-            font-size:16px;
-            font-weight:500;
-            color:#fff;
-        }
-        .mob-start{
-            background: rgba(225, 76, 70, 1);
-        }
-        .mob-start:hover{
-            background: #BD423E;
-        }
-        .mob-github{
-            background: #fff;
-            color:rgba(225, 76, 70, 1);
-        }
-    }
-}
 
 @media screen and (min-width:800px){
-    .mob-iuap-design{
-        display:none;
+    .iuap{
+        .mob-iuap-design{
+            display:none;
+        }
     }
 }
 @media screen and (max-width: 800px){
-    .iuap-design{
-        display:none;
+    .iuap{
+        .iuap-design{
+            display:none;
+        }
     }   
 }

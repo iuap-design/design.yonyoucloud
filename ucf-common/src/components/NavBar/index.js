@@ -7,7 +7,14 @@ import classnames from 'classnames';
 import './index.less';
 
 const Option = Select.Option;
+const { Item } = Menu;
+function onSelect({ key }) {
+    console.log(`${key} selected`);
+}
 
+function onVisibleChange(visible) {
+    console.log(visible);
+}
 
 class NavBar extends Component {
     constructor(props){
@@ -16,6 +23,20 @@ class NavBar extends Component {
             activeKey:this.props.activeKey
         }
     }
+    //移动端
+    // constructor(props, context) {
+    //     super(props, context);
+    //     this.state = {
+    //         current: '1'
+    //     }
+    // }
+
+    handleClick = (e) => {
+        this.setState({
+            current: e.key,
+        });
+    }
+    //-------------------
     componentDidMount(){
         docsearch({ 
             apiKey: 'd388a4977faabf821db64112c8abdcf7', 
@@ -24,15 +45,23 @@ class NavBar extends Component {
             debug: false // Set debug to true if you want to inspect the dropdown 
         }); 
     }
-    // click=(key)=>{
-    //     this.setState({
-    //         activeKey:key
-    //     })
-    // }
+    
+
     render() {
+        const menu1 = (
+            <Menu
+              onSelect={onSelect}>
+              <Item key="1">首页</Item>
+              <Item key="2">设计语言</Item>
+              <Item key="3">基础组件</Item>
+              <Item key="4">应用组件</Item>
+              <Item key="5">典型案例</Item>
+            </Menu>
+        );
+
         let activeKey = this.state.activeKey;
         return (
-            <div>
+            <div nav_des>
                 <Row className='nav'>
                 <Col className='nav-left' md={5}>
                     <span className='nav-logo '>
@@ -60,14 +89,33 @@ class NavBar extends Component {
                     </ul>  
                 </Col>          
             </Row>
-            <Row className="mob-nav">
-                <Col md={8}>
-                    <img src={logo}/>
-                </Col>
-                <Col md={4}>
-                </Col>
-            </Row>
-            </div> 
+            <div className="mob-nav">
+                {/* <span className='nav-logo '> */}
+                   <img src={logo} />
+                {/* </span> */}
+
+                {/* 下拉菜单 */}
+                {/* <span className="nav-content">
+                    <Select  dropdownClassName='nav-content'>
+                        <Option value="homepage">首页</Option>
+                        <Option value="design_lang">设计语言</Option>
+                        <Option value="base_comp">基础组件</Option>
+                        <Option value="apply_comp">应用组件</Option>
+                        <Option value="spec_case">典型案例</Option>
+                    </Select>
+               </span> */}
+
+               <span className="nav-content">
+                   <Dropdown
+                        trigger={['click']}
+                        overlay={menu1}
+                        animation="slide-up"
+                        onVisibleChange={onVisibleChange}>
+                        <Button ><Icon type="uf-navmenu"></Icon></Button>
+                    </Dropdown> 
+               </span>
+            </div>
+        </div> 
         );
     }
 }

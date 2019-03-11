@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import { Button,Row,Col } from 'tinper-bee';
+import { Button,Row,Col} from 'tinper-bee';
 import introduce from 'images/introduce.png';
 import './index.less';
 
 class IuapIntroduce extends Component {
     render() {
         return (
-            <div>
+            <div className="iuap">
                 <Row className='iuap-design'>
                     <Col md={5} sm={5}>
                         <p className="iuap-design-h1">iuap design</p>
@@ -20,18 +20,18 @@ class IuapIntroduce extends Component {
                         <img src={introduce}/>
                     </Col>
                 </Row>
-                <Row className="mob-iuap-design">
-                    <Col className="mob-pic" md={12} ms={12} xs={12}>
-                        <img src={introduce}/>
-                    </Col>
-                  <Col className="mob-iuap-ct" md={12} ms={12} xs={12}>
+                <div className="mob-iuap-design">
+                     <div className="pic-div">
+                        <img className="pic" src={introduce}/>
+                    </div>
+                    <div className="mob-iuap-ct" >
                         专业的B端业务设计体系，基于React.js的完整组件化解决方案及最佳实践
-                    </Col>
-                  <Col className="mob-btns">
+                    </div>
+                    <div className="mob-btns">
                         <Button className="mob-start" onClick={()=>{window.location.href="https://design.yonyoucloud.com/tinper-bee/"}}>开始使用</Button>
                         <Button className="mob-github" onClick={()=>{window.location.href="https://github.com/iuap-design"}}>GitHub</Button>
-                  </Col>
-                </Row>
+                    </div>
+                </div>
             </div>
         );
     }
