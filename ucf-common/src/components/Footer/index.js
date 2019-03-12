@@ -1,11 +1,6 @@
 import React, { Component } from 'react';
-import { actions } from 'mirrorx';
+import { Row,Col } from 'tinper-bee';
 import './index.less';
-import { Icon,Row,Col } from 'tinper-bee';
-import phone from 'images/phone.png';
-import mail from 'images/mail.png';
-import address from 'images/address.png';
-import time from 'images/time.png';
 class Footer extends Component {
     render() { //包含事件按钮 
         return (
@@ -69,9 +64,9 @@ class Footer extends Component {
                         <p><b>联系我们</b></p>
                             <ul>
                                 <li>
-                                    <img src={address}/> 北京市海淀区北清路68号用友产业园
+                                    <img src='//iuap-design-cdn.oss-cn-beijing.aliyuncs.com/static/tinper-bee/logo/address.png'/> 北京市海淀区北清路68号用友产业园
                                 </li>
-                                <li><img src={mail}/> guoyff@yonyou.com</li>
+                                <li><img src='//iuap-design-cdn.oss-cn-beijing.aliyuncs.com/static/tinper-bee/logo/mail.png'/> guoyff@yonyou.com</li>
                             </ul>
                     </Col>
                 </Row>

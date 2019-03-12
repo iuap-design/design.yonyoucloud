@@ -1,26 +1,12 @@
 import React, { Component } from 'react';
 import { Button,Row,Col,FormControl,Dropdown,Menu,Select,Icon,InputGroup } from 'tinper-bee';
-import logo from 'images/iuapdesignz.svg';
-
 import './index.less';
 
 const Option = Select.Option;
 const { Item } = Menu;
-function onSelect({ key }) {
-    console.log(`${key} selected`);
-}
-
-function onVisibleChange(visible) {
-    console.log(visible);
-}
 
 class NavBar extends Component {
-    constructor(props){
-        super(props);
-        this.state={
-            activeKey:this.props.activeKey
-        }
-    }
+
     //移动端
     // constructor(props, context) {
     //     super(props, context);
@@ -29,11 +15,6 @@ class NavBar extends Component {
     //     }
     // }
 
-    handleClick = (e) => {
-        this.setState({
-            current: e.key,
-        });
-    }
     //-------------------
 
 
@@ -49,8 +30,7 @@ class NavBar extends Component {
 
     render() {
         const menu1 = (
-            <Menu
-              onSelect={onSelect}>
+            <Menu>
               <Item key="1" className="first-show">首页</Item>
               <Item key="2">设计语言</Item>
               <Item key="3"><a href="/tinper-bee">基础组件</a></Item>
@@ -58,14 +38,12 @@ class NavBar extends Component {
               <Item key="5"><a href="/case/preview">典型案例</a></Item>
             </Menu>
         );
-
-        let activeKey = this.state.activeKey;
         return (
             <div >
                 <Row className='nav'>
                 <Col className='nav-left' md={5}>
                     <span className='nav-logo '>
-                        <a href="http://127.0.0.1:3000/design"><img src={logo} /></a>
+                        <a href="#"><img src='//iuap-design-cdn.oss-cn-beijing.aliyuncs.com/static/tinper-bee/logo/iuapdesign.svg' /></a>
                     </span>
                     <span className='nav-split'>|</span>
                     <span className='nav-search'>
@@ -90,13 +68,12 @@ class NavBar extends Component {
                 </Col>          
             </Row>
             <div className="mob-nav">
-                   <img src={logo} />
+                   <img src='//iuap-design-cdn.oss-cn-beijing.aliyuncs.com/static/tinper-bee/logo/iuapdesign.svg' />
                <span className="nav-content">
                    <Dropdown
                         trigger={['click']}
                         overlay={menu1}
-                        animation="slide-up"
-                        onVisibleChange={onVisibleChange}>
+                        animation="slide-up">
                         <Button ><Icon type="uf-navmenu"></Icon></Button>
                     </Dropdown> 
                </span>
