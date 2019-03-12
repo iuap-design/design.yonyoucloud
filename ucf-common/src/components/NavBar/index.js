@@ -61,7 +61,7 @@ class NavBar extends Component {
 
         let activeKey = this.state.activeKey;
         return (
-            <div nav_des>
+            <div >
                 <Row className='nav'>
                 <Col className='nav-left' md={5}>
                     <span className='nav-logo '>
