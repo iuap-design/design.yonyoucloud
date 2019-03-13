@@ -53,7 +53,7 @@ class NavBar extends Component {
                 <Col className='nav-right' md={7}>
                     <ul className="nav-options">
                         <li><a className="first-show" href="#" >首页</a></li>
-                        <li><a  className="language" >设计语言</a></li>
+                        <li  className="language">设计语言</li>
                         <li><a  href="/tinper-bee">基础组件</a></li>
                         <li><a  href="/tinper-acs">应用组件</a></li>
                         <li><a target="_blank" href="/case/preview" target="_blank">典型案例</a></li>
