@@ -8,7 +8,7 @@ class Footer extends Component {
     render() { //包含事件按钮 
         return (
             <div className="footer">
-                <Row className=''>
+                <Row className='footer-top'>
                     <Col className="footer-top-item" md={3} xs={12} sm={6} >
                         <p><b>相关资源</b></p>
                         <ul>
