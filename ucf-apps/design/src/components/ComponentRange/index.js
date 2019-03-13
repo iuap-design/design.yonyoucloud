@@ -16,7 +16,7 @@ class ComponentRange extends Component {
            </Row>
             <Row>
             <Col className="component-range-aspect  firm" md={4} sm={12} xs={12}>
-                <Tile  border={true} className='component-range-aspect-tile' style={{border:false}} Component="a" href=""  >
+                <Tile  border={true} className='component-range-aspect-tile' style={{border:false}}>
                     <div className="cont"> 
                         <img src={enterprise}/>
                         <span>企业级特性</span>
@@ -24,7 +24,7 @@ class ComponentRange extends Component {
                 </Tile>
             </Col>
             <Col className="component-range-aspect" md={4} sm={12} xs={12}>
-                <Tile  border={true} Component="a" href=""  className='component-range-aspect-tile'>
+                <Tile  border={true} className='component-range-aspect-tile'>
                     <div className="cont"> 
                         <img src={keyboardAid}/>
                         <span>全键盘支持</span>
@@ -32,7 +32,7 @@ class ComponentRange extends Component {
                 </Tile>
             </Col>
             <Col className="component-range-aspect"  md={4} sm={12} xs={12}>
-                <Tile   border={true} Component="a" href=""  className='component-range-aspect-tile'>
+                <Tile   border={true}  className='component-range-aspect-tile'>
                     <div className="cont"> 
                         <img src={globalization}/>
                         <span>国际化方案</span>
@@ -40,7 +40,7 @@ class ComponentRange extends Component {
                 </Tile>
             </Col>
             <Col className="component-range-aspect"  md={4} sm={12} xs={12}>
-                <Tile   border={true}  Component="a" href="" className='component-range-aspect-tile' >
+                <Tile  border={true}  className='component-range-aspect-tile' >
                     <div className="cont">
                         <img src={compability}/>
                         <span>多浏览器兼容</span>
@@ -48,7 +48,7 @@ class ComponentRange extends Component {
                 </Tile>
             </Col>
             <Col className="component-range-aspect  order"  md={4} sm={12} xs={12}>
-                <Tile border={true} Component="a" href=""  className='component-range-aspect-tile'>
+                <Tile border={true}  className='component-range-aspect-tile'>
                     <div  className="cont">
                         <img src={customization}/>
                         <span>定制化主题</span>
@@ -56,7 +56,7 @@ class ComponentRange extends Component {
                 </Tile>
             </Col>
             <Col className="component-range-aspect  order"  md={4} sm={12} xs={12}>
-                <Tile border={true} Component="a" href=""  className='component-range-aspect-tile'>
+                <Tile border={true}  className='component-range-aspect-tile'>
                     <div  className="cont">
                         <img src={resp}/>
                         <span>响应式适配</span>
@@ -65,7 +65,6 @@ class ComponentRange extends Component {
             </Col>
            </Row>
         </div>
-            
         );
     }
 }

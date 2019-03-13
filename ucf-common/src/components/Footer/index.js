@@ -2,10 +2,8 @@ import React, { Component } from 'react';
 import { actions } from 'mirrorx';
 import './index.less';
 import { Icon,Row,Col } from 'tinper-bee';
-import phone from 'images/phone.png';
 import mail from 'images/mail.png';
 import address from 'images/address.png';
-import time from 'images/time.png';
 class Footer extends Component {
     render() { //包含事件按钮 
         return (

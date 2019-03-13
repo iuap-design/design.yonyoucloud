@@ -93,8 +93,11 @@
 }
 
 .mob-nav{//移动端导航栏
+    position:fixed;
+    z-index:999;
     width:100%;
     height:65px;
+    background:white;
     line-height:65px;
     border-bottom:1px solid #DFDFDF;
     font-size:14px;
@@ -115,6 +118,7 @@
       }
       .u-button{
         background:transparent;
+        padding:0;
       }
     }
     a{
@@ -125,21 +129,29 @@
 .u-dropdown{//移动端的下拉菜单中的选项居中显示
     width:240px;
     .u-dropdown-menu{
-        text-align:center;
-        .first-show{
-            color:#E14C46;
-        }
-        .u-dropdown-menu-item:active,.u-dropdown-menu-item-active,.u-dropdown-menu-item-selected:hover{
+      text-align:center;
+      margin-right:17px;
+      .first-show{
           color:#E14C46;
-          background:rgba(240,240,240,1);
-        }
-        .u-dropdown-menu-item{
-            a{
-              color:rgba(66, 66, 66, 1);
-            }
-        }
+          background-color:rgba(240,240,240,1);
+      }
+      .u-dropdown-menu-item:active,.u-dropdown-menu-item-active{
+        color:#E14C46;
+        background:rgba(240,240,240,1);
+      }
+      .u-dropdown-menu-item{
+          a{
+            color:rgba(66, 66, 66, 1);
+          }
+          a:hover{
+            color:#E14C46;;
+          }
+      }
+      .u-dropdown-menu-item-selected{
+        color:#E14C46;
+        background:rgba(240,240,240,1);
+      }
     }
-    
 }
 
 //PC端语言选择
