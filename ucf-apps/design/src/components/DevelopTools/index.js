@@ -19,25 +19,30 @@ const btns = {
         key:'gjh',
         acs:['多语言输入 AcInputLocale','手机号国际化 AcMobileLocale']
     },
-    clc:{
-        name:'长流程',
-        key:'clc',
-        acs:['查询组件 SeachPanel','条件搜索组件 AcComplexSearchPanel','Bpm流程组件 yyuap-bpm','附件管理 AcUpload','上传列表 AcAttachment']
+    txh:{
+        name:'图形化',
+        key:'txh',
+        acs:['温度计Thermometer','液位计ContentGage','二维码 AcBarcode','条形码 Ac-barcode']
     },
     bg:{
         name:'表格',
         key:'bg',
         acs:['复杂表格 ComplexGrid','电子表格 SpreadSheet']
     },
+    clc:{
+        name:'单据',
+        key:'clc',
+        acs:['查询组件 SeachPanel','条件搜索组件 AcComplexSearchPanel','附件管理 AcUpload','上传列表 AcAttachment']
+    },
     bjq:{
         name:'编辑器',
         key:'bjq',
         acs:['富文本编辑 AcEditor','md编辑器','合同编辑器']
     },
-    txh:{
-        name:'图形化',
-        key:'txh',
-        acs:['温度计Thermometer','液位计ContentGage','二维码 AcBarcode','条形码 Ac-barcode']
+    bpm:{
+        name:'流程审批',
+        key:'bpm',
+        acs:['Bpm流程组件 yyuap-bpm']
     }
 }
 
@@ -88,7 +93,7 @@ class DevelopTools extends Component {
                     </div>
                 </div>
                 <div className="tool-more-container">
-                    <Button  className="tool-more-btn" onClick={()=>{window.location.href="https://design.yonyoucloud.com/tinper-acs/"}} >查看更多</Button> 
+                    <Button  className="tool-more-btn" onClick={()=>{window.location.href="/tinper-acs"}} >查看更多</Button> 
                 </div>   
             </div>
         )
