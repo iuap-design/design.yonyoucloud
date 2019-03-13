@@ -12,8 +12,8 @@ class IuapIntroduce extends Component {
                         <p className="iuap-design-h1">iuap design</p>
                         <p className="iuap-design-ct">专业的B端业务设计体系，基于React.js的完整组件化解决方案及最佳实践</p>
                         <div className='iuap-design-btns'>
-                            <Button className='start'  onClick={()=>{window.location.href="/tinper-bee"}}>开始使用</Button>
-                            <Button className='github' onClick={()=>{window.location.href="https://github.com/iuap-design"}}>GitHub</Button>
+                            <Button className='start'  onClick={()=>{window.open('//'+window.location.host+'/tinper-bee')}}>开始使用</Button>
+                            <Button className='github' onClick={()=>{window.open("https://github.com/iuap-design")}}>GitHub</Button>
                         </div>
                     </Col>
                     <Col md={7} sm={7} className="pic">

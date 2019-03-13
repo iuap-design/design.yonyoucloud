@@ -93,7 +93,7 @@ class DevelopTools extends Component {
                     </div>
                 </div>
                 <div className="tool-more-container">
-                    <Button  className="tool-more-btn" onClick={()=>{window.location.href="/tinper-acs"}} >查看更多</Button> 
+                    <Button  className="tool-more-btn" onClick={()=>{window.open('//'+window.location.host+'/tinper-acs')}} >查看更多</Button> 
                 </div>   
             </div>
         )
