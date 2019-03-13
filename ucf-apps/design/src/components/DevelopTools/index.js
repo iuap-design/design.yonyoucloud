@@ -7,7 +7,7 @@ const btns = {
     cy:{
         name:'常用',
         key:'cy',
-        acs:['按钮 AcButton','通知 AcNotification','内部转移应用 AcOrgcenter','消息框组件 AcToast','二维码 AcBarcode','条形码 Ac-barcode']
+        acs:['按钮 AcButton','通知 AcNotification','内部转移应用 AcOrgcenter','消息框组件 AcToast']
     },
     cz:{
         name:'参照',
@@ -37,9 +37,10 @@ const btns = {
     txh:{
         name:'图形化',
         key:'txh',
-        acs:['温度计Thermometer','液位计ContentGage']
+        acs:['温度计Thermometer','液位计ContentGage','二维码 AcBarcode','条形码 Ac-barcode']
     }
 }
+
 
 class DevelopTools extends Component { 
     constructor(props){
@@ -87,7 +88,7 @@ class DevelopTools extends Component {
                     </div>
                 </div>
                 <div className="tool-more-container">
-                    <Button  className="tool-more-btn" onClick={()=>{window.location.href="https://design.yonyoucloud.com/tinper-acs/"}} >查看更多</Button>
+                    <Button  className="tool-more-btn" onClick={()=>{window.location.href="https://design.yonyoucloud.com/tinper-acs/"}} >查看更多</Button> 
                 </div>   
             </div>
         )

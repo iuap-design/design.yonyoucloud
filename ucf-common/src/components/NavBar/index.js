@@ -33,9 +33,9 @@ class NavBar extends Component {
             <Menu>
               <Item key="1" className="first-show">首页</Item>
               <Item key="2">设计语言</Item>
-              <Item key="3"><a href="/tinper-bee">基础组件</a></Item>
-              <Item key="4"><a href="/tinper-acs">应用组件</a></Item>
-              <Item key="5"><a href="/case/preview">典型案例</a></Item>
+              <Item key="3"><a  target="_blank" href="/tinper-bee">基础组件</a></Item>
+              <Item key="4"><a  target="_blank" href="/tinper-acs">应用组件</a></Item>
+              <Item key="5"><a  target="_blank" href="/case/preview">典型案例</a></Item>
             </Menu>
         );
         return (
@@ -54,9 +54,9 @@ class NavBar extends Component {
                     <ul className="nav-options">
                         <li><a className="first-show" href="#" >首页</a></li>
                         <li><a href="" >设计语言</a></li>
-                        <li><a href="/tinper-bee">基础组件</a></li>
-                        <li><a href="/tinper-acs">应用组件</a></li>
-                        <li><a href="/case/preview" target="_blank">典型案例</a></li>
+                        <li><a  href="/tinper-bee">基础组件</a></li>
+                        <li><a  href="/tinper-acs">应用组件</a></li>
+                        <li><a target="_blank" href="/case/preview" target="_blank">典型案例</a></li>
                         <li>
                             <Select defaultValue="zh_CN" dropdownClassName='nav-lang-select'>
                                 <Option value="zh_CN">简体中文</Option>
