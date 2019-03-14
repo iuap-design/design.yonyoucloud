@@ -17,6 +17,7 @@ module.exports = (env, argv) => {
         // 代理的配置
         proxy: [
         ],
+        res_extra: true,
         // 构建资源的时候产出sourceMap，调试服务不会生效
         open_source_map: false,
         // CSS loader 控制选项
