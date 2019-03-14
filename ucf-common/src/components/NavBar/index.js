@@ -32,9 +32,9 @@ class NavBar extends Component {
         const menu1 = (
             <Menu>
               <Item key="1" className="first-show">首页</Item>
-              <Item key="2">设计语言</Item>
-              <Item key="3"><a  target="_blank" href="/tinper-bee">基础组件</a></Item>
-              <Item key="4"><a  target="_blank" href="/tinper-acs">应用组件</a></Item>
+              <Item key="2" className="lang">设计语言</Item>
+              <Item key="3"><a   href="/tinper-bee">基础组件</a></Item>
+              <Item key="4"><a   href="/tinper-acs">应用组件</a></Item>
               <Item key="5"><a  target="_blank" href="/case/preview">典型案例</a></Item>
             </Menu>
         );
@@ -71,6 +71,7 @@ class NavBar extends Component {
                    <img src='//iuap-design-cdn.oss-cn-beijing.aliyuncs.com/static/tinper-bee/logo/iuapdesign.svg' />
                <span className="nav-content">
                    <Dropdown
+                        overlayClassName="aaa"
                         trigger={['click']}
                         overlay={menu1}
                         animation="slide-up">
