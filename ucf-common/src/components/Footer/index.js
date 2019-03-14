@@ -5,7 +5,7 @@ import { Icon } from 'tinper-bee';
 import mail from 'images/mail.png';
 import address from 'images/address.png';
 class Footer extends Component {
-    render() { //包含事件按钮 
+    render() { 
         return (
             <div className="footer">
                 <Row className='footer-top'>
