@@ -6,18 +6,6 @@ const Option = Select.Option;
 const { Item } = Menu;
 
 class NavBar extends Component {
-
-    //移动端
-    // constructor(props, context) {
-    //     super(props, context);
-    //     this.state = {
-    //         current: '1'
-    //     }
-    // }
-
-    //-------------------
-
-
     componentDidMount(){
         docsearch({ 
             apiKey: 'd388a4977faabf821db64112c8abdcf7', 
@@ -26,8 +14,6 @@ class NavBar extends Component {
             debug: false // Set debug to true if you want to inspect the dropdown 
         }); 
     }
-    
-
     render() {
         const menu1 = (
             <Menu>
