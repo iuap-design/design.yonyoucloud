@@ -42,11 +42,11 @@ class NavBar extends Component {
                         <li  className="language">设计语言</li>
                         <li><a  href="/tinper-bee">基础组件</a></li>
                         <li><a  href="/tinper-acs">应用组件</a></li>
-                        <li><a target="_blank" href="/case/preview" target="_blank">典型案例</a></li>
+                        <li><a >典型案例</a></li>
                         <li>
                             <Select defaultValue="zh_CN" dropdownClassName='nav-lang-select'>
                                 <Option value="zh_CN">简体中文</Option>
-                                <Option value="zh_TW" disabled={true}>繁体中文</Option>
+                                <Option value="zh_TW" disabltarget="_blank" href="/case/preview" target="_blank"ed={true}>繁体中文</Option>
                                 <Option value="en_US" disabled={true}>英文</Option>
                             </Select>
                         </li>
@@ -62,7 +62,7 @@ class NavBar extends Component {
                         overlay={menu1}
                         animation="slide-up">
                         <Button ><Icon type="uf-navmenu"></Icon></Button>
-                    </Dropdown> 
+                   </Dropdown> 
                </span>
             </div>
         </div> 
