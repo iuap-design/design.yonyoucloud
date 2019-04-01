@@ -69,9 +69,20 @@ class Case extends Component {
 
     
     dotClick=(active)=>{
+        clearInterval(this.timeOut)
         this.setState({
             active
         })
+        this.timeOut=setInterval(()=>{
+            if(active==length-1){
+                active=0;
+            }else{
+                active++;
+            }
+            this.setState({
+                active
+            })
+        },5000)
     }
     componentDidMount(){
         let length = Object.keys(logos).length;
