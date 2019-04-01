@@ -15,7 +15,6 @@ class CaseItem extends Component {
 
     render() {
         let items = this.props.items;
-        console.log(items)
         return (
             <Row>
                 {
