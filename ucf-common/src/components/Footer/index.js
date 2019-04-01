@@ -82,7 +82,7 @@ class Footer extends Component {
                     <Col className="footer-base" md={12}  xs={12} sm={12}>
                         <div className="footer-base-font">
                             <p className="copy-right" >
-                                版权所有：用友网络科技股份有限公司 2016 京ICP备05007539号-7 京ICP证100714号 京公网安备1101080209224号
+                                版权所有：用友网络科技股份有限公司 2017 京ICP备05007539号-7 京ICP证100714号 京公网安备1101080209224号
                             </p>
                             <p className="produ">
                                 Powered by yonyou
