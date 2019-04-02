@@ -10,19 +10,19 @@ class CaseItem extends Component {
             
         }
     }
-
-   
-
+ 
     render() {
         let items = this.props.items;
+        let da = new Date();
         return (
             <Row>
                 {
                     items.map((item,index)=>{
+                        let newUrl = item.url + "?t="+ index + "_" +da.getTime();
                         return (
                             <Col  key={index} md={3} sm={12} xs={12}>
                                 <Tile>
-                                    <img src={item.url} title={item.title} alt={item.title}/>
+                                    <img src={newUrl} title={item.title} alt={item.title}/>
                                     <span title={item.title}>{item.title}</span>
                                 </Tile>
                             </Col>
