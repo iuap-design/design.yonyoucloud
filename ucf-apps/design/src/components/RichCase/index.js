@@ -16,7 +16,8 @@ class RichCase extends Component {
                     </Col>
                     <Col className="richcase-text" md={5}>
                         <p className="richcase-title">丰富案例覆盖典型业务场景</p>
-                        <Button className="richcase-btn"  onClick={()=>{window.location.href="https://design.yonyoucloud.com/case/preview"}}>查看案例</Button>
+                        {/* <Button className="richcase-btn"  onClick={()=>{window.location.href="https://design.yonyoucloud.com/case/preview"}}>查看案例</Button> */}
+                        <Button className="richcase-btn"><a href="/case/preview" target="_blank">查看案例</a></Button>
                     </Col>
                 </Row>
                 <div className="mob-richcontent">
