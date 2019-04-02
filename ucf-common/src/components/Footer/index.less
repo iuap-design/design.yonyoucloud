@@ -53,10 +53,13 @@
     }
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:768px){
     .footer{
+        padding-left:0;
+        padding-right:0;
         display:inline-block;
         text-align:center;
+        overflow:hidden;//新加的
         .footer-top {
             padding: 50px 0 0 0;
         }
@@ -66,9 +69,12 @@
             .footer-line{
                 height:1px;
                 background:#666666;
-                margin-left:-11%;
-                margin-right:-11%;
-                width:122%;
+                // margin-left:-11%;
+                // margin-right:-11%;
+                // width:122%;
+                margin-left:0;
+                margin-right:0;
+                width:100%;
             }
         }
         .footer-top-item{
@@ -80,8 +86,10 @@
 
         }
         .footer-base{
-            padding-left:6%;
-            padding-right:6%;
+            padding-left:25px;
+            padding-right:25px;
+            // padding-left:6%;
+            // padding-right:6%;
             margin-bottom:60px;
             margin-top:30px;
             .footer-base-font{

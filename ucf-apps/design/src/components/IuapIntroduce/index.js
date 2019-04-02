@@ -10,7 +10,7 @@ class IuapIntroduce extends Component {
                 <Row className='iuap-design'>
                     <Col md={5} sm={5}>
                         <p className="iuap-design-h1">iuap design</p>
-                        <p className="iuap-design-ct">专业的B端业务设计体系，基于React.js的完整组件化解决方案及最佳实践</p>
+                        <p className="iuap-design-ct">一套面向企业数字化的用户体验系统，基于简、晰、智、敏的模块化设计理念提供通用设计资源、UI 组件、场景化模板等研发资产，让设计人员及开发者专注于极致体验。</p>
                         <div className='iuap-design-btns'>
                             <Button className='start'  onClick={()=>{window.open('//'+window.location.host+'/tinper-bee')}}>开始使用</Button>
                             <Button className='github' onClick={()=>{window.open("https://github.com/iuap-design")}}>GitHub</Button>
@@ -25,7 +25,7 @@ class IuapIntroduce extends Component {
                         <img className="pic" src={introduce}/>
                     </div>
                     <div className="mob-iuap-ct" >
-                        专业的B端业务设计体系，基于React.js的完整组件化解决方案及最佳实践
+                    一套面向企业数字化的用户体验系统，基于简、晰、智、敏的模块化设计理念提供通用设计资源、UI 组件、场景化模板等研发资产，让设计人员及开发者专注于极致体验。
                     </div>
                     <div className="mob-btns">
                         <Button className="mob-start" onClick={()=>{window.location.href="https://design.yonyoucloud.com/tinper-bee/"}}>开始使用</Button>
