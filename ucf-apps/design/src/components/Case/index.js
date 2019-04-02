@@ -10,7 +10,7 @@ const imgs={
     '中兴通讯':baseUrl+'中兴通讯'+'.png',
     '三一重工':baseUrl+'三一重工'+'.png',
     '台湾华新丽华-MES 系统':baseUrl+'台湾华新丽华-MES 系统'+'.png',
-    '阳光保险':baseUrl+'阳光保险'+'.png',
+    // '阳光保险':baseUrl+'阳光保险'+'.png',
     '象屿集团':baseUrl+'象屿集团'+'.png',
     '杭州路桥':baseUrl+'杭州路桥'+'.png',
     '杭州绿城':baseUrl+'杭州绿城'+'.png',
