@@ -42,7 +42,7 @@
     }
     .case-ctn-item.active{
         display: block;
-        animation: fadeInLeft;
+        animation: fadeInRight;
         animation-duration: 0.5s
     }
     .case-ctn-dots{
@@ -126,3 +126,15 @@
     -webkit-animation-name: fadeInRight;
     animation-name: fadeInRight;
   }
+/* 超小屏幕（手机，小于 768px） */
+@media (max-width: 768px) { 
+  .case .case-ctn-item .u-tile img{
+    min-height: 78px;
+  }
+}
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) { 
+  .case .case-ctn-item .u-tile img{
+    min-height: 110px;
+  }
+}
