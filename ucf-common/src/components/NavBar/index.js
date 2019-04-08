@@ -29,7 +29,10 @@ class NavBar extends Component {
                 <Row className='nav'>
                 <Col className='nav-left' md={5}>
                     <span className='nav-logo '>
-                        <a href="#"><img src='//iuap-design-cdn.oss-cn-beijing.aliyuncs.com/static/tinper-bee/logo/iuapdesign.svg' /></a>
+                        <a href="#">
+                            <img src='//design.yonyoucloud.com/static/tinper-bee/logo/iuapdesign.svg' />
+                            <span className='version'>当前 v2.0.6</span>
+                        </a>
                     </span>
                     <span className='nav-split'>|</span>
                     <span className='nav-search'>
@@ -54,7 +57,10 @@ class NavBar extends Component {
                 </Col>          
             </Row>
             <div className="mob-nav">
-                   <img src='//iuap-design-cdn.oss-cn-beijing.aliyuncs.com/static/tinper-bee/logo/iuapdesign.svg' />
+                <a href="#">
+                    <img src='//design.yonyoucloud.com/static/tinper-bee/logo/iuapdesign.svg' />
+                    <span className='version'>当前 v2.0.6</span>
+                </a>
                <span className="nav-content">
                    <Dropdown
                         overlayClassName="aaa"
