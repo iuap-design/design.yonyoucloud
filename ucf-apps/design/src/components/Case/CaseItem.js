@@ -13,12 +13,11 @@ class CaseItem extends Component {
  
     render() {
         let items = this.props.items;
-        let da = new Date();
         return (
             <Row>
                 {
                     items.map((item,index)=>{
-                        let newUrl = item.url + "?t="+ index + "_" +da.getTime();
+                        let newUrl = item.url + "?v=2.0.6";
                         return (
                             <Col  key={index} md={3} sm={12} xs={12}>
                                 <Tile>
