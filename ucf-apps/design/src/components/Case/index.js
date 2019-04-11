@@ -11,7 +11,7 @@ const imgs={
     '全友数字营销系统':baseUrl+'全友数字营销系统'+'.png',
     '杭州路桥':baseUrl+'杭州路桥'+'.png',
     '三一重工':baseUrl+'三一重工'+'.png',
-    '阳光保险':baseUrl+'阳光保险'+'.png',
+    // '阳光保险':baseUrl+'阳光保险'+'.png',
     '象屿集团':baseUrl+'象屿集团'+'.png',
     '杭州绿城':baseUrl+'杭州绿城'+'.png',
     '江铜贵溪冶炼厂-智能工厂':baseUrl+'江铜贵溪冶炼厂-智能工厂'+'.png',
@@ -29,6 +29,7 @@ const imgs={
     '用友网络-diwork 工作台':baseUrl+'用友网络-diwork 工作台'+'.png',
     '用友网络-NC 工程云':baseUrl+'用友网络-NC 工程云'+'.png',
     '用友网络-NC 司库云':baseUrl+'用友网络-NC 司库云'+'.png',
+    '用友网络-用友云平台官网':baseUrl+'用友网络-用友云平台官网'+'.png',
 }
 
 class Case extends Component { 
