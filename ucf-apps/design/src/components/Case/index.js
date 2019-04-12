@@ -43,7 +43,7 @@ class Case extends Component {
                 <Row>
                     {
                         Object.keys(imgs).map((title,index)=>{
-                            let newUrl = imgs[title] + "?v=2.0.6";
+                            let newUrl = imgs[title] + "?v=2.0.7";
                             return (
                                 <Col className="case-ctn-item"  key={index} lg={2} md={3} sm={4} xs={6}>
                                     <Tile>

@@ -1,11 +1,19 @@
 import React, { Component } from 'react';
 import { Button,Row,Col,FormControl,Dropdown,Menu,Select,Icon,InputGroup } from 'tinper-bee';
 import './index.less';
+import axios from "axios";
+
 
 const Option = Select.Option;
 const { Item } = Menu;
 
 class NavBar extends Component {
+    constructor(props){ 
+        super(props);
+        this.state={
+            version:''
+        } 
+    }
     componentDidMount(){
         docsearch({ 
             apiKey: 'd388a4977faabf821db64112c8abdcf7', 
@@ -13,6 +21,14 @@ class NavBar extends Component {
             inputSelector: '#componentSearch', 
             debug: false // Set debug to true if you want to inspect the dropdown 
         }); 
+
+        // axios.get('//tinper-bee-theme-server.online.app.yyuap.com/server/version')
+        //     .then(function (response) {
+        //         console.log(response);
+        //     })
+        //     .catch(function (error) {
+        //         console.log(error);
+        //     });
     }
     render() {
         const menu1 = (
@@ -31,7 +47,7 @@ class NavBar extends Component {
                     <span className='nav-logo '>
                         <a href="#">
                             <img src='//design.yonyoucloud.com/static/tinper-bee/logo/iuapdesign.svg' />
-                            <span className='version'>当前 v2.0.6</span>
+                            <span className='version'>当前 v2.0.7</span>
                         </a>
                     </span>
                     <span className='nav-split'>|</span>
@@ -59,7 +75,7 @@ class NavBar extends Component {
             <div className="mob-nav">
                 <a href="#">
                     <img src='//design.yonyoucloud.com/static/tinper-bee/logo/iuapdesign.svg' />
-                    <span className='version'>当前 v2.0.6</span>
+                    <span className='version'>当前 v2.0.7</span>
                 </a>
                <span className="nav-content">
                    <Dropdown
