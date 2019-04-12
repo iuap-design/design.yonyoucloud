@@ -47,7 +47,7 @@ class NavBar extends Component {
                     <span className='nav-logo '>
                         <a href="#">
                             <img src='//design.yonyoucloud.com/static/tinper-bee/logo/iuapdesign.svg' />
-                            <span className='version'>当前 v2.0.7</span>
+                            <span className='version'>V2.0.7</span>
                         </a>
                     </span>
                     <span className='nav-split'>|</span>
@@ -75,7 +75,7 @@ class NavBar extends Component {
             <div className="mob-nav">
                 <a href="#">
                     <img src='//design.yonyoucloud.com/static/tinper-bee/logo/iuapdesign.svg' />
-                    <span className='version'>当前 v2.0.7</span>
+                    <span className='version'>V2.0.7</span>
                 </a>
                <span className="nav-content">
                    <Dropdown
