@@ -5,6 +5,7 @@ import './index.less';
 const baseUrl = '//design.yonyoucloud.com/static/tinper-bee/logo/'
 
 const imgs={
+    '用友网络nccloud':baseUrl+'用友网络nccloud'+'.png',
     '中兴通讯':baseUrl+'中兴通讯'+'.png',
     '三一重工':baseUrl+'三一重工'+'.png',
     '象屿集团':baseUrl+'象屿集团'+'.png',
@@ -12,7 +13,6 @@ const imgs={
     '杭州绿城':baseUrl+'杭州绿城'+'.png',
     '台湾华新丽华-MES 系统':baseUrl+'台湾华新丽华-MES 系统'+'.png',
     '杭州路桥':baseUrl+'杭州路桥'+'.png',
-    '用友网络nccloud':baseUrl+'用友网络nccloud'+'.png',
     '江铜贵溪冶炼厂-智能工厂':baseUrl+'江铜贵溪冶炼厂-智能工厂'+'.png',
     '用友网络-U8Cloud 数据中心':baseUrl+'用友网络-U8Cloud 数据中心'+'.png',
     '尚层装饰':baseUrl+'尚层装饰'+'.png',
