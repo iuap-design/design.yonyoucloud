@@ -46,7 +46,7 @@ class Case extends Component {
                             let newUrl = imgs[title] + "?v=2.0.7";
                             return (
                                 <Col className="case-ctn-item"  key={index} lg={2} md={3} sm={4} xs={6}>
-                                    <Tile>
+                                    <Tile border={false}>
                                         <img src={newUrl} title={title} alt={title}/>
                                     </Tile>
                                 </Col>
