@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Button,Row,Col,FormControl,Dropdown,Menu,Select,Icon,InputGroup } from 'tinper-bee';
 import './index.less';
 import axios from "axios";
-
+import $ from  'jquery';
 
 const Option = Select.Option;
 const { Item } = Menu;
@@ -35,9 +35,9 @@ class NavBar extends Component {
             <Menu>
               <Item key="1" className="first-show">首页</Item>
               <Item key="2" className="lang">设计语言</Item>
-              <Item key="3"><a   href="/tinper-bee">基础组件</a></Item>
-              <Item key="4"><a   href="/tinper-acs">应用组件</a></Item>
-              <Item key="5"><a  target="_blank" href="/case/preview">典型案例</a></Item>
+              <Item key="3"><a  href="/tinper-bee" onTouchStart={()=>{}}>基础组件</a></Item>
+              <Item key="4"><a  href="/tinper-acs" onTouchStart={()=>{}}>应用组件</a></Item>
+              <Item key="5"><a  target="_blank" href="/case/preview" onTouchStart={()=>{}}>典型案例</a></Item>
             </Menu>
         );
         return (

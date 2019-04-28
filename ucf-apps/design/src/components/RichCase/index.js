@@ -4,11 +4,12 @@ import Carousel from "tinper-bee/lib/Carousel";
 import './index.less';
 class RichCase extends Component {
     render() {
-        var mySwiper = new Swiper('.swiper-container', {
-            autoplay: {
-              delay: 1500,
-            },
-        });
+        // var mySwiper = new Swiper('.swiper-container', {
+        //     autoplay: {
+        //       delay: 1500,
+        //       disableOnInteraction: false,
+        //     }
+        // });
         const params = {
             pagination: {
               el: '.swiper-pagination',
@@ -31,8 +32,7 @@ class RichCase extends Component {
                     </Button>
                 </div>
                 <div className="img" style={{backgroundImage:`url(//design.yonyoucloud.com/static/tinper-bee/logo/bg.png)`}}>
-                    <Carousel {...params}>
-                    {/* 封装成组件 */}
+                    <Carousel {...params} autoplay={{disableOnInteraction: false,delay:1500}}>
                         <div className="swiper-pic">
                             <span>单表筛选</span>
                             <div className="swipic" style={{backgroundImage:`url(//design.yonyoucloud.com/static/tinper-bee/logo/pic1.png)`}}></div>
