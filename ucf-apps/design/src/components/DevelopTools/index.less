@@ -8,7 +8,9 @@
     text-align:center;  
     padding-left: 10%;
     padding-right: 10%;
-    margin-top: -240px;
+    margin-top: -282px;
+    position: relative;
+    top: 0;  
     .tool-title{
         font-size:38px;
         font-weight:500; 
@@ -21,7 +23,7 @@
                 color: #424242;
                 border-radius: 0;
                 padding: 0;
-                margin: 0 30px;            
+                margin: 0 30px;        
             }
             .component.active{
                 border-bottom: 2px solid #E14C46;
@@ -89,12 +91,17 @@
     color: rgba(225, 76, 70, 1);
 }
 
-
+@media screen and (width:768px){
+    .delop-tool{
+        top:193px!important;
+    }
+}
  @media screen and (max-width:768px){
 .delop-tool{
     max-height:800px;
     padding-left:5%;
     padding-right:5%;
+    top:98px;
     .u-tile{
         min-width:270px;
         height:74px;
