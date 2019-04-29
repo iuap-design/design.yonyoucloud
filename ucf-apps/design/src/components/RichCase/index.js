@@ -4,12 +4,6 @@ import Carousel from "tinper-bee/lib/Carousel";
 import './index.less';
 class RichCase extends Component {
     render() {
-        // var mySwiper = new Swiper('.swiper-container', {
-        //     autoplay: {
-        //       delay: 1500,
-        //       disableOnInteraction: false,
-        //     }
-        // });
         const params = {
             pagination: {
               el: '.swiper-pagination',
@@ -31,29 +25,43 @@ class RichCase extends Component {
                         <a href="https://design.yonyoucloud.com/case/preview" target="_blank">查看案例</a>
                     </Button>
                 </div>
-                <div className="img" style={{backgroundImage:`url(//design.yonyoucloud.com/static/tinper-bee/logo/bg.png)`}}>
+                <div className="img">
+                    <img className="bgimg" src="//design.yonyoucloud.com/static/tinper-bee/logo/bg.png" />
+                    <div className="slidepic">
                     <Carousel {...params} autoplay={{disableOnInteraction: false,delay:1500}}>
                         <div className="swiper-pic">
                             <span>单表筛选</span>
-                            <div className="swipic" style={{backgroundImage:`url(//design.yonyoucloud.com/static/tinper-bee/logo/pic1.png)`}}></div>
+                            <div className="swipic">
+                                <img  src="//design.yonyoucloud.com/static/tinper-bee/logo/pic1.png"/>
+                            </div>
+                            
                         </div>
                         <div className="swiper-pic">
                             <span>卡表</span>
-                            <div className="swipic" style={{backgroundImage:`url(//design.yonyoucloud.com/static/tinper-bee/logo/pic2.png)`}}></div>
-                        </div>
+                            <div  className="swipic">
+                                <img src="//design.yonyoucloud.com/static/tinper-bee/logo/pic2.png"/>
+                            </div>
+                        </div> 
                         <div className="swiper-pic">
                             <span>树表</span>
-                            <div className="swipic" style={{backgroundImage:`url(//design.yonyoucloud.com/static/tinper-bee/logo/pic3.png)`}}></div>
+                            <div className="swipic">
+                                <img  src="//design.yonyoucloud.com/static/tinper-bee/logo/pic3.png"/>
+                            </div>
                         </div>
                         <div className="swiper-pic">
                             <span>一主多子</span>
-                            <div className="swipic" style={{backgroundImage:`url(//design.yonyoucloud.com/static/tinper-bee/logo/pic4.png)`}}></div>
+                            <div className="swipic">
+                                <img  src="//design.yonyoucloud.com/static/tinper-bee/logo/pic4.png"/>
+                            </div>
                         </div>
                         <div className="swiper-pic">
                             <span>主子表</span>
-                            <div className="swipic" style={{backgroundImage:`url(//design.yonyoucloud.com/static/tinper-bee/logo/pic5.png)`}}></div>
+                            <div className="swipic">
+                                <img  src="//design.yonyoucloud.com/static/tinper-bee/logo/pic5.png"/>
+                            </div>
                         </div>
                     </Carousel>
+                    </div>
                 </div>
             </div>
         );
