@@ -16,8 +16,8 @@ class RichCase extends Component {
             },
             spaceBetween: 30,
             autoplay:true,
-            zoom:true
-          }
+            loop:true
+          };
         return (
             <div className="richcase">
                 <div className="content">
