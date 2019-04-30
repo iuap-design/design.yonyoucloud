@@ -15,7 +15,7 @@ class RichCase extends Component {
               prevEl: '.swiper-button-prev'
             },
             spaceBetween: 30,
-            autoplay:true,
+            // autoplay:true,
             loop:true
           };
         return (
