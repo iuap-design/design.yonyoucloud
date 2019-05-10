@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import { Row,Col } from 'tinper-bee';
 import './index.less';
-import { Icon } from 'tinper-bee';
-import mail from 'images/mail.png';
-import address from 'images/address.png';
 class Footer extends Component {
     render() { 
         return (
@@ -45,7 +42,6 @@ class Footer extends Component {
                                     <a target="_blank" href="https://github.com/iuap-design/blog/issues">云平台体验技术团队BLOG</a>
                                 </li>
                                 <li>
-                                    {/* <a href="">tinper 官方技术交流群</a> */}
                                     tinper 官方技术交流群
                                 </li>
                             </ul>
@@ -90,8 +86,7 @@ class Footer extends Component {
                         </div>
                     </Col>
                 </Row>
-            </div>
-            
+            </div>    
         );
     }
 }

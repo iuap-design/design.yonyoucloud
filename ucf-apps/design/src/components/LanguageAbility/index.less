@@ -1,58 +1,88 @@
 .lang-ability {
     min-height:600px;
-    color:rgba(255,255,255,1);
-    background-color:rgba(39,48,67,1);
-    float:none;
-    display:block;
-    text-align:center;
-    padding-left:12%;
-    padding-right:12%;
+    color: #fff;
+    background-color: #273043;
+    float: none;
+    display: block;
+    text-align: center;
+    padding-left: 12%;
+    padding-right: 12%;
     .lang-title { 
-        font-size:38px;
-        padding-top:105px;
-        margin-bottom:14px; 
+        font-size: 38px;
+        padding-top: 105px;
+        margin-bottom: 14px; 
     }
-    .lang-base-first,.lang-base-second,.lang-base-third,.lang-base-forth{
-        float:none;
-        display:inline-block;
-        text-align:center;  
-        div{
-           margin-top:40px;
+    .lang-base-first,
+    .lang-base-second,
+    .lang-base-third,
+    .lang-base-forth {
+        float: none;
+        display: inline-block;
+        text-align: center; 
+        font-size: 17px;
+        div { 
+           margin-top: 40px;
         }
-        font-size:17px;
-        .white-radius{
-            p{
-                font-size:20px;
+        .white-radius {
+            height: 120px; 
+            width: 120px;
+            border: none;
+            border-radius: 50%;
+            display: inline-block;
+            p {
+                font-size: 20px;
             }
-            height:120px; 
-            width:120px;
-            border:none;
-            border-radius:50%;
-            display:inline-block;
         } 
-        // .white-radius:hover{
-        //     background:rgba(225, 76, 70, 1);
-        //     border:1px solid rgba(225, 76, 70, 1);
-        // }
-    }
-    .lang-base-second .white-radius{
-
     }
 }
 
-
-@media screen and (max-width:768px){
-    .lang-ability{
-        min-height:1200px;
+@media screen and (max-width:768px) {
+    .lang-ability {
+        // min-height: 1200px;
+        min-height: 900px;
         .lang-title{
-            padding-top:58px;
+            padding-top: 58px;
         }
-        .lang-base-first{
-            margin-top:2px;
+        .lang-base-first {
+            margin-top: 2px;
         }
-        .lang-base-forth{
-            margin-bottom:99px;
+        .lang-base-forth {
+            // margin-bottom: 99px;
+            margin-bottom: 90px;
         }
     }
   }
-  
+  .lang-ability {
+    min-height: 600px;
+    color: #fff;
+    background-color: #273043;
+    float:  none;
+    display: block;
+    text-align: center;
+    padding-left: 12%;
+    padding-right: 12%;
+    .lang-title { 
+        font-size: 38px;
+        padding-top: 105px;
+        margin-bottom: 14px; 
+    }
+    .lang-base {
+        float: none;
+        display: inline-block;
+        text-align: center;
+        font-size: 17px;  
+        .innner {
+            margin-top: 40px;
+            .white-radius {
+                height: 120px; 
+                width: 120px;
+                border: none;
+                border-radius: 50%;
+                display: inline-block;
+                p {
+                    font-size: 20px;
+                }
+            } 
+        }  
+    }
+}

@@ -15,7 +15,6 @@ class RichCase extends Component {
               prevEl: '.swiper-button-prev'
             },
             spaceBetween: 30,
-            // autoplay:true,
             loop:true
           };
         return (
@@ -32,10 +31,9 @@ class RichCase extends Component {
                     <Carousel {...params} autoplay={{disableOnInteraction: false,delay:1500}}>
                         <div className="swiper-pic">
                             <span>单表筛选</span>
-                            <div className="swipic" className="swiper-zoom-container">
+                            <div className="swipic">
                                 <img  src="//design.yonyoucloud.com/static/tinper-bee/logo/pic1.png"/>
-                            </div>
-                            
+                            </div>  
                         </div>
                         <div className="swiper-pic">
                             <span>卡表</span>

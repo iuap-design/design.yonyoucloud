@@ -1,13 +1,9 @@
 import React, { Component } from 'react';
-import { actions } from 'mirrorx';
-import { Button,Row,Col,FormControl,Dropdown,Menu,Select,Icon,InputGroup } from 'tinper-bee';
+import { Row,Col,FormControl,Select } from 'tinper-bee';
 import logo from 'images/iuapdesignz.svg';
-
 import './index.less';
 
 const Option = Select.Option;
-
-
 class NavBar extends Component {
     render() {
         return (

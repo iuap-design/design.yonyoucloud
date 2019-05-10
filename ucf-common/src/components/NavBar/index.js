@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import { Button,Row,Col,FormControl,Dropdown,Menu,Select,Icon,InputGroup } from 'tinper-bee';
+import { Button,Row,Col,FormControl,Dropdown,Menu,Select,Icon } from 'tinper-bee';
 import './index.less';
-import axios from "axios";
-import $ from  'jquery';
 
 const Option = Select.Option;
 const { Item } = Menu;
@@ -11,7 +9,7 @@ class NavBar extends Component {
     constructor(props){ 
         super(props);
         this.state={
-            version:''
+            version: ''
         } 
     }
     componentDidMount(){
@@ -21,14 +19,6 @@ class NavBar extends Component {
             inputSelector: '#componentSearch', 
             debug: false // Set debug to true if you want to inspect the dropdown 
         }); 
-
-        // axios.get('//tinper-bee-theme-server.online.app.yyuap.com/server/version')
-        //     .then(function (response) {
-        //         console.log(response);
-        //     })
-        //     .catch(function (error) {
-        //         console.log(error);
-        //     });
     }
     render() {
         const menu1 = (
@@ -58,7 +48,7 @@ class NavBar extends Component {
                 <Col className='nav-right' md={7}>
                     <ul className="nav-options">
                         <li><a className="first-show" href="#" >首页</a></li>
-                        <li  className="language">设计语言</li>
+                        <li className="language">设计语言</li>
                         <li><a  href="/tinper-bee">基础组件</a></li>
                         <li><a  href="/tinper-acs">应用组件</a></li>
                         <li><a  href="/case/preview" target="_blank">典型案例</a></li>

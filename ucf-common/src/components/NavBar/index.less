@@ -1,13 +1,14 @@
 @primary-color:#E14C46;
-.nav{//PC端导航栏
-    position:fixed;
-    z-index:999;
-    background:white;
-    width:100%;
-    height:65px;
-    line-height:65px;
-    border-bottom:1px solid #DFDFDF;
-    font-size:14px;
+//PC端导航栏
+.nav{
+    position: fixed;
+    z-index: 999;
+    background: white;
+    width: 100%;
+    height: 65px;
+    line-height: 65px;
+    border-bottom: 1px solid #DFDFDF;
+    font-size: 14px;
     .nav-left{
         .nav-logo{
             display: inline-block;
@@ -23,10 +24,10 @@
             }
             img{
                 height: 24px;
-                vertical-align:middle;
+                vertical-align: middle;
             }
             i{
-                padding:0;
+                padding: 0;
                 height: 0;
                 display: inline-block;
             }
@@ -41,23 +42,22 @@
         }
         .nav-search{
             .uf-search{
-              color:#959AA5;
+              color: #959AA5;
             }
-            color:white;
+            color: white;
             #componentSearch{
                 vertical-align: unset!important;
             }
              input::-webkit-input-placeholde{
-                    color:white;
-                    font-size:14px;
+                    color: white;
+                    font-size: 14px;
                 }
             .u-form-control-affix-wrapper{
                 width: auto;
                 .u-form-control{
-                    // width: auto;
                     width: 200px;
-                    font-size:14px;
-                    color:#959AA5;
+                    font-size: 14px;
+                    color: #959AA5;
                     border: none;
                     padding-left: 30px;
                 }
@@ -72,7 +72,7 @@
         .nav-options{
             float: right;
                 .first-show{
-                  color:#E14C46;
+                  color: #E14C46;
                 }
                 .language{
                   color: #ccc;
@@ -80,7 +80,7 @@
                 }
                 li{
                     float: left;
-                    margin-right:38px;
+                    margin-right: 38px;
                     .u-select{
                         min-width: 100px;
                         font-size: 14px;
@@ -105,16 +105,16 @@
 }
 
 .mob-nav{//移动端导航栏
-    position:fixed;
-    z-index:999;
-    width:100%;
-    height:65px;
-    background:white;
-    line-height:65px;
-    border-bottom:1px solid #DFDFDF;
-    font-size:14px;
-    display:inline-block;
-    text-align:center;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 65px;
+    background: white;
+    line-height: 65px;
+    border-bottom: 1px solid #DFDFDF;
+    font-size: 14px;
+    display: inline-block;
+    text-align: center;
     a{
         color: #424242;
         .version{
@@ -124,53 +124,54 @@
             }
     }
     img{
-      display:inline-block;
-      text-align:center;
-      margin:0 auto;
+      display: inline-block;
+      text-align: center;
+      margin: 0 auto;
     }
     .nav-content{
-       float:right;
-       right:3px;
-       position:fixed;
-       z-index:999;
-       margin-right:17px;//新加的
+       float: right;
+       right: 3px;
+       position: fixed;
+       z-index: 999;
+       margin-right: 17px;
       .uf-navmenu{
-        margin-left:2px;
+        margin-left: 2px;
       }
       .u-button{
-        background:transparent;
-        padding:0;
+        background: transparent;
+        padding: 0;
       }
     }
 }
 
-.aaa{//移动端的下拉菜单中的选项居中显示
-    width:240px;
+//移动端的下拉菜单中的选项居中显示
+.aaa{
+    width: 240px;
     .u-dropdown-menu{
-      text-align:center;
+      text-align: center;
       .first-show{
-          color:#E14C46;
-          background-color:rgba(240,240,240,1);
+          color: #E14C46;
+          background-color: #f0f0f0;
       }
       .lang{
         color: #ccc;
         cursor: not-allowed;
       }
       .u-dropdown-menu-item:active,.u-dropdown-menu-item-active{
-        color:#E14C46;
-        background:rgba(240,240,240,1);
+        color: #E14C46;
+        background: #f0f0f0;
       }
       .u-dropdown-menu-item{
           a{
-            color:rgba(66, 66, 66, 1);
+            color: #424242;
           }
           a:hover{
-            color:#E14C46;
+            color: #E14C46;
           }
       }
       .u-dropdown-menu-item-selected{
-        color:#E14C46;
-        background:rgba(240,240,240,1);
+        color: #E14C46;
+        background: #f0f0f0;
       }
     }
     .u-dropdown-menu {
@@ -218,7 +219,7 @@
     border-color: #ddd;
   }
   .algolia-docsearch-suggestion--category-header .algolia-docsearch-suggestion--highlight {
-    background: rgba(255,255,255,0.6);
+    background: #ffffff99;
   }
   .algolia-docsearch-suggestion--highlight {
     color: #2c815b;
@@ -227,21 +228,21 @@
     color: #2c3e50;
   }
 
-
-input::-webkit-input-placeholder{//搜索栏字体的颜色
-      color:#959AA5;
-      font-size:14px;
+// 搜索栏字体的颜色
+input::-webkit-input-placeholder{
+      color: #959AA5;
+      font-size: 14px;
 }
 
 
 @media screen and (max-width:768px){
   .nav{
-      display:none;
+      display: none;
   }
 }
 
 @media screen and (min-width:769px){
   .mob-nav{
-      display:none;
+      display: none;
   }
 }

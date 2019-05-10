@@ -1,83 +1,83 @@
 @primary-color:red;
-.nav{
-    position:fixed;
-    z-index:999;
-    background:white;
-    width:100%;
-    height:65px;
+.nav {
+    position: fixed;
+    z-index: 999;
+    background: white;
+    width: 100%;
+    height: 65px;
     line-height: 65px;
     border-bottom:1px solid #ccc;
-    .nav-left{
-        .nav-logo{
+    .nav-left {
+        .nav-logo {
             display: inline-block;
-            img{
+            img {
                 display: inline-block;
                 width: 100px;
                 height: 65px;
             }
-            i{
+            i {
                 padding: 0;
                 height: 0;
                 display: inline-block;
             }
-            .uf-iuapdesign-col:before{
+            .uf-iuapdesign-col:before {
                 font-size: 100px;
                 display: inline-block;
             }
         }
-        .nav-split{
+        .nav-split {
             color: #ccc;
             margin: 0 20px;
         }
-        .nav-search{
-            #componentSearch{
+        .nav-search {
+            #componentSearch {
                 vertical-align: unset!important;
             }
-            .u-form-control-affix-wrapper{
+            .u-form-control-affix-wrapper {
                 width: auto;
-                .u-form-control{
+                .u-form-control {
                     width: auto;
                     border: none;
                     padding-left: 30px;
                 }
-                .u-form-control-suffix{
+                .u-form-control-suffix {
                     right: auto;
                     left: 0;
                 }
             }
         }
     }
-    .nav-right{
-        .nav-options{
+    .nav-right {
+        .nav-options {
             float: right;
-                li{
-                    float: left;
-                    margin-right:38px;
-                    .u-select{
-                        min-width: 85px;
+            li {
+                float: left;
+                margin-right: 38px;
+                .u-select {
+                    min-width: 85px;
+                    font-size: 14px;
+                    color: #444;
+                    .u-select-arrow {
+                        margin-top: -8px;
                         font-size: 14px;
-                        color: #444;
-                        .u-select-arrow{
-                            margin-top: -8px;
-                            font-size: 14px;
-                        }
-                        .u-select-selection {
-                            border: none;
-                        }
                     }
-                    a{
-                        color: #444;
-                    }
-                    a:hover{
-                        color: @primary-color;
+                    .u-select-selection {
+                        border: none;
                     }
                 }
+                a {
+                    color: #444;
+                }
+                a:hover {
+                    color: @primary-color;
+                }
+            }
         }
     }
 }
 
-.nav-lang-select{
-    .u-select-dropdown-menu-item-selected, .u-select-dropdown-menu-item-selected:hover,.u-select-dropdown-menu-item-active{
+.nav-lang-select {
+    .u-select-dropdown-menu-item-selected, .u-select-dropdown-menu-item-selected:hover,.u-select-dropdown-menu-item-active {
         color: @primary-color!important;
         background: #fff!important;
         font-weight: 0!important;
@@ -109,7 +109,7 @@
     border-color: #ddd;
   }
   .algolia-docsearch-suggestion--category-header .algolia-docsearch-suggestion--highlight {
-    background: rgba(255,255,255,0.6);
+    background: rgba(255, 255, 255, 0.6);
   }
   .algolia-docsearch-suggestion--highlight {
     color: #2c815b;

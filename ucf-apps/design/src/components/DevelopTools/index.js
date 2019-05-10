@@ -7,45 +7,44 @@ const btns = {
     cy:{
         name:'常用',
         key:'cy',
-        acs:['按钮 AcButton','通知 AcNotification','内部转移应用 AcOrgcenter','消息框组件 AcToast']
+        acs:['按钮 AcButton','通知 AcNotification','消息 AcToast','城市选择 AcCitySelect','多页签 AcMultiTabs','导航栏 AcNavbar']
     },
     cz:{
         name:'参照',
         key:'cz',
-        acs:['树形参照RefTree','多选参照RefMultipleSelection','树表参照 RefTreeTable','树穿梭参照RefTreeTransfer','复杂查询表格参照RefMultipleTable']
+        acs:['树参照 RefTree','表参照 RefMultipleTable','树表参照 RefTreeTable','树穿梭参照RefTreeTransfer','下拉参照 RefCombobox']
     },
     gjh:{
         name:'国际化',
         key:'gjh',
         acs:['多语言输入 AcInputLocale','手机号国际化 AcMobileLocale']
     },
-    txh:{
-        name:'图形化',
-        key:'txh',
-        acs:['温度计Thermometer','液位计ContentGage','二维码 AcBarcode','条形码 Ac-barcode']
-    },
-    bg:{
-        name:'表格',
-        key:'bg',
-        acs:['复杂表格 ComplexGrid','电子表格 SpreadSheet']
-    },
-    clc:{
+    clc:{ 
         name:'单据',
         key:'clc',
-        acs:['查询组件 SeachPanel','条件搜索组件 AcComplexSearchPanel','附件管理 AcUpload','上传列表 AcAttachment']
-    },
-    bjq:{
-        name:'编辑器',
-        key:'bjq',
-        acs:['富文本编辑 AcEditor','md编辑器','合同编辑器']
+        acs:['查询面板 AcSeachPanel','条件搜索 AcComplexSearchPanel','上传列表 AcAttachment','附件管理 AcUpload']
     },
     bpm:{
         name:'流程审批',
         key:'bpm',
-        acs:['Bpm流程组件 yyuap-bpm']
-    }
+        acs:['BPM流程 YyuapBpm']
+    },
+    bjq:{
+        name:'编辑器',
+        key:'bjq',
+        acs:['富文本编辑 AcEditor']
+    },
+    bg:{
+        name:'表格',
+        key:'bg',
+        acs:['电子表格 AcSpreadsheet','复杂表格 BeeComplexGrid']
+    },
+    txh:{
+        name:'图形化',
+        key:'txh',
+        acs:['温度计/液位计 AcThermometer','条形码 AcBarcode','二维码 AcQrcodes']
+    } 
 }
-
 
 class DevelopTools extends Component { 
     constructor(props){
@@ -89,7 +88,7 @@ class DevelopTools extends Component {
                                 })
                             }
                         </Row>
-                        
+
                     </div>
                 </div>
                 <div className="tool-more-container">
