@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import { Button,Row,Col,FormControl,Dropdown,Menu,Select,Icon,InputGroup } from 'tinper-bee';
 import './index.less';
-import axios from "axios";
-import $ from  'jquery';
 
 const Option = Select.Option;
 const { Item } = Menu;
