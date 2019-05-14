@@ -33,6 +33,7 @@ class PrePage extends Component {
                     <div className="mob-btns">
                         <Button className="mob-start"><a href="/case/preview" target="_blank">预览</a></Button>
                         <Button className="mob-github"><a target="_blank" href="http://git.yonyou.com/iuap-pap-demo/iuap-pap-demo-fe">查看源码</a></Button>
+                        <a className="mobstart"></a>
                     </div>
                 </div>
             </div>

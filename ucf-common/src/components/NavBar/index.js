@@ -19,14 +19,6 @@ class NavBar extends Component {
             inputSelector: '#componentSearch', 
             debug: false // Set debug to true if you want to inspect the dropdown 
         }); 
-
-        // axios.get('//tinper-bee-theme-server.online.app.yyuap.com/server/version')
-        //     .then(function (response) {
-        //         console.log(response);
-        //     })
-        //     .catch(function (error) {
-        //         console.log(error);
-        //     });
     }
     render() {
         const menu1 = (
