@@ -12,7 +12,7 @@ class PrePage extends Component {
                         <p className="pre-design-ct">丰富案例覆盖典型业务场景</p>
                         <div className='pre-design-btns'>
                             {/* <Button className='start'><a  href="/case/preview" target="_blank">预览</a></Button> */}
-                            <Button className='start'><a  href="https://design.yonyoucloud.com/case/preview" target="_blank">预览</a></Button>
+                            <Button className='start'><a  href="/case/preview" target="_blank">预览</a></Button>
                             <Button className='github'><a target="_blank" href="http://git.yonyou.com/iuap-pap-demo/iuap-pap-demo-fe">查看源码</a></Button>
                         </div>
                     </Col>
@@ -31,7 +31,7 @@ class PrePage extends Component {
                         丰富案例覆盖典型业务场景
                     </div>
                     <div className="mob-btns">
-                        <Button className="mob-start"><a  href="https://design.yonyoucloud.com/case/preview" target="_blank">预览</a></Button>
+                        <Button className="mob-start"><a href="/case/preview" target="_blank">预览</a></Button>
                         <Button className="mob-github"><a target="_blank" href="http://git.yonyou.com/iuap-pap-demo/iuap-pap-demo-fe">查看源码</a></Button>
                     </div>
                 </div>
