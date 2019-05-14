@@ -1,0 +1,136 @@
+.pre {
+    .pre-design {
+        padding-top: 100px;
+        height: calc ( 100% - 65px );
+        display: inline-block;
+        padding-left: 5%;
+        .pre-design-h1 {
+            font-size: 60px;
+            font-weight: 800;
+            color: #333333;
+            padding-top: 12%;
+            margin-bottom: 2px;
+        }
+        .pre-design-ct {
+            font-size: 20px;
+            font-weight: 500;
+            margin-bottom: 1px;
+            color: #333333;
+        }
+        .pre-design-btns {
+            margin-top: 60px;
+            .u-button {
+                margin-right: 20px;
+                width: 150px;
+                height: 48px;
+                background: #E14C46;
+                border-radius:65px;
+            }
+            .start {
+                a {
+                    font-size: 16px;
+                    font-weight: 500;
+                    color: #fff;
+                }
+            }
+            .start:hover {
+                background: #BD423E;
+            }
+            .github {
+                width:150px;
+                border-radius: 4px;
+                border: 1px solid #E14C46;
+                background: #fff;
+                border-radius: 65px;
+                -webkit-tap-highlight-color: transparent;
+                a {
+                    font-size: 16px;
+                    font-weight: 500;
+                    color: #E14C46;
+                }
+            }
+        }
+        .pic {
+            margin-top: 13px;
+            img {
+                width: 100%;
+            }
+            padding-bottom: 50px;
+            padding-right: 4%;
+        }
+    }
+    
+    .mob-pre {
+        display: inline-block;
+        text-align: center;
+        // min-height: 600px;
+        height:100%;
+        .pic-div {
+            margin-top: 110px;
+            img {
+                width: 90%;
+            }
+        }
+        .mob-pre-h1{
+            font-size: 32px;
+            font-weight: 500;
+            margin-top: 12px;
+        }
+        .mob-pre-ct {
+           height: 84px;
+           font-size: 20px;
+           color: #424242;
+           line-height: 28px;
+           width: 75%;
+           display: inline-block;
+           text-align: center;
+           margin-top: 3px;
+        }
+        .mob-btns {
+            margin-top: -16px;
+            .u-button {
+                margin-right: 10px;
+                min-width: 140px;
+                height: 48px;
+                border-radius: 65px;
+                border: 1px solid #e14c46;
+            }
+            .mob-start {
+                background: #e14c46;
+                a {
+                    font-size: 16px;
+                    font-weight: 500;
+                    color: #fff;
+                }
+            }
+            .mob-start:hover {
+                background: #BD423E;
+            }
+            .mob-github {
+                background: #fff;
+                -webkit-tap-highlight-color: transparent;
+                a {
+                    font-size: 16px;
+                    font-weight: 500;
+                    color: #e14c46;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width:769px) {
+    .pre {
+        .mob-pre {
+            display: none;
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    .pre {
+        .pre-design {
+            display: none;
+        }
+    }   
+}
