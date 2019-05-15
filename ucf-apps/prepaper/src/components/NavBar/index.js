@@ -14,8 +14,8 @@ class NavBar extends Component {
     }
     componentDidMount(){
         docsearch({ 
-            apiKey: 'd388a4977faabf821db64112c8abdcf7', 
-            indexName: 'bee_tinper', 
+            apiKey: 'd388a4977faabf821db64112c8abdcf7',
+            indexName: 'bee_tinper',
             inputSelector: '#componentSearch', 
             debug: false // Set debug to true if you want to inspect the dropdown 
         }); 
