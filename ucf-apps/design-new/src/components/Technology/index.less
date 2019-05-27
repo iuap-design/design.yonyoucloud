@@ -1,0 +1,73 @@
+.technology{
+    margin-top: 173px;
+    padding-left: 15%;
+    padding-right: 15%;
+    .u-row{
+        >div{
+            padding: 0;
+        }
+        .ctn{
+            background: linear-gradient(#4034EE,#3E87FB,#0FCBFF);
+            height: 290px;
+            padding: 0;
+            position: relative;
+            cursor: pointer;
+            top:0;
+            transition: top .2s;
+            img{
+                height: 290px;
+            }
+            .ctx{
+                width: 50%;
+                text-align: left;
+                display: inline-block;
+                padding-left: 10%;
+                height: 290px;
+                position: absolute;
+                top: 0;
+                *{
+                    display: block;
+                    color: #FFF;
+                }
+                .ctx-title{
+                    font-size: 24px;
+                    position: absolute;
+                    top: 82px;
+                }
+                .description{
+                    font-size: 12px;
+                    position: absolute;
+                    top: 116px;
+                }
+                a{
+                    font-size: 14px;
+                    cursor: pointer;
+                    position: absolute;
+                    bottom: 69px;
+                }
+            }
+        }
+        .ctn:hover{
+            top: -2px;
+            box-shadow: 0px 16px 30px 0px rgba(36, 118, 209, 1);
+        }
+        .ctn-1{
+            .ctx{
+                width: 30%;
+            }
+            .img-right{
+                float: right
+            }
+        }
+        .u-col-xs-6{
+            margin-top: 20px;
+            position: relative;
+        }
+        .u-col-xs-6:nth-of-type(2){
+            padding-right: 10px;
+        }
+        .u-col-xs-6:nth-of-type(3){
+            padding-left: 10px;
+        }
+    }
+}
