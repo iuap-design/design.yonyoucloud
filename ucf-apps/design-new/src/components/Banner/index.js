@@ -34,7 +34,7 @@ class Banner extends Component {
                         <Title title="为数字化企业而生的体验能力"/>
                         <Row>
                             <Col className="design-item" sm={4} xs={6}>
-                                <a target='_blank' href='/tinper-bee' className="link">
+                                <a target='_blank' href='http://bee.tinper.org/tinper-bee/' className="link">
                                     <div className="img">
                                         <img src="//design.yonyoucloud.com/static/tinper-bee/logo/tinper-bee.png"/>
                                     </div>
@@ -47,7 +47,7 @@ class Banner extends Component {
                                 </a>
                             </Col>
                             <Col className="design-item" sm={4} xs={6}>
-                                <a target='_blank' href='/tinper-acs' className="link">
+                                <a target='_blank' href='http://bee.tinper.org/tinper-acs/' className="link">
                                     <div className="img">
                                         <img src="//design.yonyoucloud.com/static/tinper-bee/logo/tinper-acs.png"/>
                                     </div>
@@ -60,7 +60,7 @@ class Banner extends Component {
                                 </a>
                             </Col>
                             <Col className="design-item" sm={4} xs={6}>
-                                <a target='_blank' href='/prepaper' className="link">
+                                <a target='_blank' href='http://bee.tinper.org/prepaper/' className="link">
                                     <div className="img">
                                         <img src="//design.yonyoucloud.com/static/tinper-bee/logo/tinper-case.png"/>
                                     </div>
