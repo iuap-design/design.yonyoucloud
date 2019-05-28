@@ -68,8 +68,11 @@ class Footer extends Component {
         return (
             <div className="footer" >
                 <div className="footer-bg">
+                    
+                </div>
+                <div className="links">
                     <Row>
-                    <Col xs={1}></Col>
+                        <Col xs={1}></Col>
                         {
                              Object.keys(obj).map((item,index)=>{
                                 let list =[];
@@ -96,7 +99,7 @@ class Footer extends Component {
                                         )
                                     }
                                 });
-                                return <Col lg={2} md={2}  sm={6} xs={12} key={index}>
+                                return <Col lg={2} md={2}  sm={2} xs={12} key={index}>
                                     <span className="link-title">{item}</span>
                                     <ul className="link-ul">
                                         {list}

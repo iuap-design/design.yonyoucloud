@@ -14,8 +14,10 @@
             top:0;
             transition: top .2s;
             img{
-                max-height: 290px;
+                height: 290px;
                 display: inline-block;
+                max-width: 50%;
+                margin-top: 0px;
             }
             .ctx{
                 width: 50%;
@@ -51,23 +53,25 @@
         .ctn-1{
             img{
                 width: 33%;
+                height: 290px;
+                margin-top: 0;
             }
             .ctx{
                 width: 33%;
-                padding-left: calc( 33% - 234px);
+                padding-left: calc(33% - 156px);
             }
             .img-right{
                 float: right
             }
         }
-        .u-col-xs-6{
+        .u-col-sm-6{
             margin-top: 20px;
             position: relative;
         }
-        .u-col-xs-6:nth-of-type(2){
+        .u-col-sm-6:nth-of-type(2){
             padding-right: 10px;
         }
-        .u-col-xs-6:nth-of-type(3){
+        .u-col-sm-6:nth-of-type(3){
             padding-left: 10px;
         }
     }

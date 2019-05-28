@@ -26,7 +26,7 @@ class Technology extends Component {
                             <img className="img-right" src="//design.yonyoucloud.com/static/tinper-bee/logo/ucf-web.png"/>
                         </div>
                     </Col>
-                    <Col xs={6}>
+                    <Col sm={6} xs={12}>
                         <div className="ctn">
                             <img src="//design.yonyoucloud.com/static/tinper-bee/logo/mdf.png"/>
                             <span className="ctx">
@@ -42,7 +42,7 @@ class Technology extends Component {
                             </span>
                         </div>
                     </Col>
-                    <Col xs={6}>
+                    <Col sm={6} xs={12}>
                         <div className="ctn">
                             <img src="//design.yonyoucloud.com/static/tinper-bee/logo/moy.png"/>
                             <span className="ctx">

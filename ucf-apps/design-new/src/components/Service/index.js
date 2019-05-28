@@ -9,7 +9,7 @@ class Service extends Component {
             <div className="service" >
                 <Title title="生态与服务"/>
                 <Row>
-                    <Col sm={4} xs={6}>
+                    <Col sm={4} xs={12}>
                         <a target='_blank' href='https://mock.yonyoucloud.com/' className='link'>
                             <div className="service-item">
                                 <img src="//design.yonyoucloud.com/static/tinper-bee/logo/mock.png"/>
@@ -22,7 +22,7 @@ class Service extends Component {
                             </div>
                         </a>
                     </Col>
-                    <Col sm={4} xs={6}>
+                    <Col sm={4} xs={12}>
                         <a target='_blank' href='https://package.yonyoucloud.com/#/' className='link'>
                             <div className="service-item">
                                 <img src="//design.yonyoucloud.com/static/tinper-bee/logo/ynpm.png"/>
@@ -35,7 +35,7 @@ class Service extends Component {
                             </div>
                         </a>
                     </Col>
-                    <Col sm={4} xs={6}>
+                    <Col sm={4} xs={12}>
                         <a target='_blank' href='http://tinper.org/dist/cdn/index.html' className='link'>
                             <div className="service-item">
                                 <img src="//design.yonyoucloud.com/static/tinper-bee/logo/cdn.png"/>

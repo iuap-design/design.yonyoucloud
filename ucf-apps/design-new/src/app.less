@@ -4,3 +4,134 @@
         width: 100%;
     }
 }
+
+// 移动端适配
+@media screen and (max-width:768px){
+    .banner{
+        background: url('//design.yonyoucloud.com/static/tinper-bee/logo/mobilebanner.png');
+        background-size: 100% 800px;
+        background-repeat: no-repeat;
+        .header{
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+        .left-text{
+            padding-left: 5%;
+            width: 100%;
+            color: #fff;
+            padding-top: 200px;
+            .tinper img{
+                height: 26px;
+            }
+            .tinper-title{
+                font-size: 24px;
+            }
+        }
+        .design{
+            padding-left: 5%;
+            padding-right: 5%;
+            top: 850px;
+            bottom: 0;
+            .design-item{
+                margin-bottom: 50px;
+            }
+        }
+    }
+    .technology{
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 710px;
+        .u-row{
+            .u-col-sm-6{
+                margin-top: 30px;
+            }
+            .u-col-sm-6:nth-of-type(3){
+                padding-left: 0;
+            }
+            .u-col-sm-6:nth-of-type(2){
+                padding-right: 0;
+            }
+            .ctn-1 {
+                img{
+                    width: 50%;
+                    display: inline-block;
+                    margin-top: 0;
+                    height: 290px;
+                }
+                .img-right{
+                    display: none;
+                }
+                .ctx {
+                    width: 50%;
+                    padding-left: calc(50% - 234px);
+                    float: right;
+                }
+            }
+            .ctn{
+                .ctx{
+                    float: right;
+                }
+                img{
+                    width: 50%;
+                    display: inline-block;
+                    margin-top: 0;
+                    height: 290px;
+                }
+            }
+        }
+    }
+    .service{
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-top: 110px;
+        .u-col-xs-12{
+            margin-bottom: 30px;
+        }
+    }
+    .case{
+        margin-top: 110px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .footer{
+        .footer-bg{
+            height: 158px;
+        }   
+        .links{
+            padding-left: 5%;
+            padding-right: 5%;
+            .u-row{
+                top: -50px;
+                .u-col-xs-12{
+                    text-align: center;
+                    margin-bottom: 50px;
+                    .link-title{
+                        margin-bottom: 20px;
+                    }
+                    .sp-area .sp-area-span{
+                        display: block;
+                        margin-top: 10px;
+                        padding: 0;
+                    }
+                }
+                .u-col-xs-12:nth-of-type(6){
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .footer-bottom{
+            height: auto;
+            line-height: 30px;
+            padding: 30px 5%;
+        }
+    }
+}
+// ipad
+@media screen and (max-width:992px){
+    .technology{
+        padding-top: 0;
+    }
+    .footer .links .u-row .sp-area span{
+        padding-left: 0;
+    }
+}
