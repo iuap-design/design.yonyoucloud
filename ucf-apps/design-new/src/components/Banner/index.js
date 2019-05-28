@@ -6,15 +6,15 @@ import './index.less';
 class Banner extends Component {
     render() { 
         return (
-            <div  style={{'height':document.body.clientHeight+180}}>
-                <div className="banner" style={{'height':document.body.clientHeight}}>
+            <div  style={{'height':1100}}>
+                <div className="banner" style={{'height':920}}>
                     <div className="header">
                         <span className="header-left">
-                            <a href='/' className="index">首页</a>
-                            <a>技术博客</a>
+                            <a href='' className="index">首页</a>
+                            <a href='https://github.com/iuap-design/blog/issues'>技术博客</a>
                         </span>
                         <span className="header-right">
-                            <a>Github</a>
+                            <a href="https://github.com/iuap-design/tinper-bee">Github</a>
                         </span>
                     </div>
                     <div className="left-text">
