@@ -4,22 +4,38 @@
         width: 100%;
     }
 }
+
 // ipad pro
 @media screen and (max-width:992px){
-    .technology{
-        padding-top: 0;
-    }
     .footer .links .u-row .sp-area span{
         padding-left: 0;
     }
+    .technology {
+        margin-top: 600px;
+        .u-row .ctn-1 img{
+            margin-top: -130px;
+        }
+        .u-row .u-col-sm-6:nth-of-type(2){
+            padding-right: 10px;
+        }
+        .u-row .u-col-sm-6:nth-of-type(3){
+            padding-left: 10px;
+        }
+    }
+    .banner{
+        height: 950px;
+        .design{
+            top: 950px;
+        }
+    }
 }
-
 // 移动端适配
 @media screen and (max-width:768px){
     .banner{
         background: url('//design.yonyoucloud.com/static/tinper-bee/logo/mobilebanner.png');
-        background-size: 100% 800px;
+        background-size: 100% auto;
         background-repeat: no-repeat;
+        height: 450px;
         .header{
             padding-left: 5%;
             padding-right: 5%;
@@ -28,21 +44,22 @@
             padding-left: 5%;
             width: 100%;
             color: #fff;
-            padding-top: 200px;
+            padding-top: 65px;
             .tinper img{
                 height: 26px;
             }
             .tinper-title{
                 font-size: 24px;
+                margin-bottom: 0;
             }
             .tinper-ctn{
-                font-size: 16px;
+                font-size: 14px;
             }
         }
         .design{
             padding-left: 5%;
             padding-right: 5%;
-            top: 850px;
+            top: 450px;
             bottom: 0;
             .design-item{
                 margin-bottom: 50px;
@@ -52,7 +69,8 @@
     .technology{
         padding-left: 5%;
         padding-right: 5%;
-        padding-top: 710px;
+        padding-top: 300px;
+        margin-top: 173px;
         .u-row{
             .u-col-sm-6{
                 margin-top: 30px;
@@ -67,8 +85,9 @@
                 img{
                     width: 50%;
                     display: inline-block;
-                    margin-top: 0;
-                    height: 290px;
+                    position: absolute;
+                    top: 50%;
+                    margin-top: -65px;
                 }
                 .img-right{
                     display: none;
@@ -86,8 +105,10 @@
                 img{
                     width: 50%;
                     display: inline-block;
-                    margin-top: 0;
-                    height: 290px;
+                    height: auto;
+                    position: absolute;
+                    top: 50%;
+                    margin-top: -65px;
                 }
             }
         }
