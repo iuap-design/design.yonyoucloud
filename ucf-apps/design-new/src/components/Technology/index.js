@@ -7,19 +7,19 @@ class Technology extends Component {
     render() { 
         return (
             <div className="technology">
-                <Title title="便捷高效的设计"/>
+                <Title title="前端编程模型"/>
                 <Row className="technology-ctn">
                     <Col xs={12} className="ctn-1">
                         <div className="ctn">
                             <img src="//design.yonyoucloud.com/static/tinper-bee/logo/ucf-web2.png"/>
                             <span className="ctx">
                                 <span className="ctx-title">
-                                    ucf-web
+                                    UCF-Web
                                 </span>
                                 <span className="description">
                                     专注性能和效率的微前端框架
                                 </span>
-                                <a>
+                                <a target='_blank' href='http://tinper.org/ucf-web/'>
                                     查看详情 >
                                 </a>
                             </span>
@@ -34,10 +34,10 @@ class Technology extends Component {
                                     MDF
                                 </span>
                                 <span className="description">
-                                    前端框架
+                                    基于元数据的模型驱动开发框架
                                 </span>
-                                <a>
-                                    查看详情 >
+                                <a href='#'>
+                                    暂不对外开放
                                 </a>
                             </span>
                         </div>
@@ -47,12 +47,12 @@ class Technology extends Component {
                             <img src="//design.yonyoucloud.com/static/tinper-bee/logo/moy.png"/>
                             <span className="ctx">
                                 <span className="ctx-title">
-                                    moy
+                                    Moy
                                 </span>
                                 <span className="description">
-                                    轻量级前端框架
+                                    轻量级MVVM前端框架
                                 </span>
-                                <a>
+                                <a target='_blank' href='http://docs.tinper.org/moy/kero/cascader.html'>
                                     查看详情 >
                                 </a>
                             </span>

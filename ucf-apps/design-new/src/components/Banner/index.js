@@ -6,20 +6,20 @@ import './index.less';
 class Banner extends Component {
     render() { 
         return (
-            <div  style={{'height':1100}}>
-                <div className="banner" style={{'height':920}}>
+            <div  style={{'height':1110}}>
+                <div className="banner" style={{'height':930}}>
                     <div className="header">
                         <span className="header-left">
-                            <a href='' className="index">首页</a>
-                            <a href='https://github.com/iuap-design/blog/issues'>技术博客</a>
+                            <a href='#' className="index">首页</a>
+                            <a target='_blank' href='https://github.com/iuap-design/blog/issues'>技术博客</a>
                         </span>
                         <span className="header-right">
-                            <a href="https://github.com/iuap-design/tinper-bee">Github</a>
+                            <a target='_blank' href="https://github.com/iuap-design/tinper-bee">Github</a>
                         </span>
                     </div>
                     <div className="left-text">
                         <div className="tinper">
-                            <a href='/'>
+                            <a target='_blank' href='/'>
                                 <img src="//tinper.org/assets/images/tinperlogos%2060w.png"/>
                             </a>
                         </div>
@@ -27,46 +27,50 @@ class Banner extends Component {
                             企业级大前端基础设施平台
                         </div>
                         <div className="tinper-ctn">
-                            tinper 致力于为企业客户和个人开发者提供快速构建泛端应用的服务和能力，<br/>
-                            其中包含了完整的开发框架、公共SDK以及配套的开发服务，<br/>
-                            用友网络大前端团队为您提供技术服务。
+                            为数字化企业实现多终端快速开发及产品极致体验提供一站式解决方案
                         </div>
                     </div>
                     <div className="design">
-                        <Title title="便捷高效的设计"/>
+                        <Title title="为数字化企业而生的体验能力"/>
                         <Row>
                             <Col className="design-item" sm={4} xs={6}>
-                                <div className="img">
-                                    <img src="//design.yonyoucloud.com/static/tinper-bee/logo/tinper-bee.png"/>
-                                </div>
-                                <span className="design-item-h">
-                                    tinper-bee
-                                </span>
-                                <span className="design-item-l">
-                                    基础组件库
-                                </span>
+                                <a target='_blank' href='/tinper-bee' className="link">
+                                    <div className="img">
+                                        <img src="//design.yonyoucloud.com/static/tinper-bee/logo/tinper-bee.png"/>
+                                    </div>
+                                    <span className="design-item-h">
+                                        tinper-bee
+                                    </span>
+                                    <span className="design-item-l">
+                                        基础组件库
+                                    </span>
+                                </a>
                             </Col>
                             <Col className="design-item" sm={4} xs={6}>
-                                <div className="img">
-                                    <img src="//design.yonyoucloud.com/static/tinper-bee/logo/tinper-acs.png"/>
-                                </div>
-                                <span className="design-item-h">
-                                    tinper-acs
-                                </span>
-                                <span className="design-item-l">
-                                    业务组件库（含参照）
-                                </span>
+                                <a target='_blank' href='/tinper-acs' className="link">
+                                    <div className="img">
+                                        <img src="//design.yonyoucloud.com/static/tinper-bee/logo/tinper-acs.png"/>
+                                    </div>
+                                    <span className="design-item-h">
+                                        tinper-acs
+                                    </span>
+                                    <span className="design-item-l">
+                                        应该组件库
+                                    </span>
+                                </a>
                             </Col>
                             <Col className="design-item" sm={4} xs={6}>
-                                <div className="img">
-                                    <img src="//design.yonyoucloud.com/static/tinper-bee/logo/tinper-case.png"/>
-                                </div>
-                                <span className="design-item-h">
-                                    典型案例
-                                </span>
-                                <span className="design-item-l">
-                                    业务组件库（含参照）
-                                </span>
+                                <a target='_blank' href='/prepaper' className="link">
+                                    <div className="img">
+                                        <img src="//design.yonyoucloud.com/static/tinper-bee/logo/tinper-case.png"/>
+                                    </div>
+                                    <span className="design-item-h">
+                                        tinper-honeycumb
+                                    </span>
+                                    <span className="design-item-l">
+                                        蜂巢-典型案例系统
+                                    </span>
+                                </a>
                             </Col>
                         </Row>
                     </div>

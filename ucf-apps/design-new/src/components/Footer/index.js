@@ -55,7 +55,7 @@ const obj = {
     ],
     '关于tinper':[
         {
-            name:'此处是tinper的文字描述',href:'一套面向企业数字化的用户体验系统，基于简、晰、智、敏的模块化设计理念提供通用设计资源、UI 组件、场景化模板等研发资产，让设计人员及开发者专注于极致体验'
+            name:'tinper，企业级大前端基础设施平台，为数字化企业实现多终端快速开发及产品极致体验提供一站式解决方案',href:'#'
         },
         {
             name:'img',href:''
@@ -91,7 +91,7 @@ class Footer extends Component {
                                     }else{
                                         list.push(
                                             <li key={i}>
-                                                <a href={element.href}>{element.name}</a>
+                                                <a target='_blank' href={element.href}>{element.name}</a>
                                             </li>
                                         )
                                     }
@@ -109,7 +109,7 @@ class Footer extends Component {
                     </Row>
                 </div>
                 <div className="footer-bottom">
-                    Copyright © 2018 yonyou iuapdesign. All Rights Reserved版权所有 京ICP备15025219号-1   Made with  by FED team
+                    Copyright © 2019 yonyou iuapdesign. All Rights Reserved版权所有 京ICP备15025219号-1   Made with  by FED team
                 </div>
             </div>
         );
