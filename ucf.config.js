@@ -13,7 +13,7 @@ module.exports = (env, argv) => {
         // 启动这两个模块，启动调试、构建
         bootList: [
             "design",
-            "design-lang",
+            "design-new",
             "prepaper"
         ],
         // 代理的配置
