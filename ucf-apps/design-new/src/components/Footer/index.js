@@ -11,7 +11,7 @@ const obj = {
             name:'用友云平台官网',href:'https://www.yonyoucloud.com/category.php?id=27'
         },
         {
-            name:'用友云开放平台',href:''
+            name:'用友云开放平台',href:'https://open.diwork.com/#/'
         },
     ],
     '资源':[
