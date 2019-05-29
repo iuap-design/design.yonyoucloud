@@ -9,8 +9,8 @@ class Technology extends Component {
             <div className="technology">
                 <Title title="前端编程模型"/>
                 <Row className="technology-ctn">
-                    <Col xs={12} className="ctn-1">
-                        <div className="ctn">
+                    <Col xs={12}>
+                        <div className="ctn ctn-1">
                             <a className='link' target='_blank' href='http://tinper.org/ucf-web/'>
                                 <img src="//design.yonyoucloud.com/static/tinper-bee/logo/ucf-web2.png"/>
                                 <span className="ctx">
