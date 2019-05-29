@@ -36,6 +36,7 @@ const imgs2={
     '畅捷通':baseUrl+'cjt'+'.png',
     '用友金融':baseUrl+'yyjr'+'.png',
     '用友云营销服务':baseUrl+'yyyyxfw'+'.png',
+    '用友网络-工单系统':baseUrl+'gdxt'+'.png',
 }
 class Index extends Component {
     render() { 
