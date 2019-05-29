@@ -5,46 +5,28 @@
     }
 }
 
-// ipad pro
-@media screen and (max-width:992px){
-    .footer .links .u-row .sp-area span{
-        padding-left: 0;
-    }
-    .technology {
-        margin-top: 600px;
-        .u-row .ctn-1 img{
-            margin-top: -130px;
-        }
-        .u-row .u-col-sm-6:nth-of-type(2){
-            padding-right: 10px;
-        }
-        .u-row .u-col-sm-6:nth-of-type(3){
-            padding-left: 10px;
-        }
-    }
-    .banner{
-        height: 950px;
-        .design{
-            top: 950px;
-        }
-    }
-}
+
 // 移动端适配
 @media screen and (max-width:768px){
     .banner{
-        background: url('//design.yonyoucloud.com/static/tinper-bee/logo/mobilebanner.png');
-        background-size: 100% auto;
-        background-repeat: no-repeat;
-        height: 450px;
+        .banner-bg{
+            background: url('//design.yonyoucloud.com/static/tinper-bee/logo/mobilebanner.png');
+            background-size: 100% auto;
+            background-repeat: no-repeat;
+        }
         .header{
             padding-left: 5%;
             padding-right: 5%;
+            height: 64px;
+            line-height: 64px;
         }
         .left-text{
             padding-left: 5%;
             width: 100%;
             color: #fff;
             padding-top: 65px;
+            position: unset;
+            background: linear-gradient(to right, #425FEF, #4469F0, #456EF1, #4774F2, #487BF3, #4A83F4, #4980F3, #4B89F5, #4D91F6, #4B8CF5, #4D92F6, #4E98F6, #4F9CF7, #51A4F8 100%);
             .tinper img{
                 height: 26px;
             }
@@ -56,11 +38,13 @@
                 font-size: 14px;
             }
         }
+        .img-bg{
+            margin-top: 0;
+        }
         .design{
             padding-left: 5%;
             padding-right: 5%;
-            top: 450px;
-            bottom: 0;
+            position: unset;
             .design-item{
                 margin-bottom: 50px;
             }
@@ -69,8 +53,8 @@
     .technology{
         padding-left: 5%;
         padding-right: 5%;
-        padding-top: 300px;
-        margin-top: 173px;
+        padding-top: 0;
+        margin-top: 0;
         .u-row{
             .u-col-sm-6{
                 margin-top: 30px;
@@ -160,3 +144,26 @@
     }
 }
 
+// ipad pro
+@media screen and (max-width:992px){
+    .footer .links .u-row .sp-area span{
+        padding-left: 0;
+    }
+    .technology {
+        .u-row .ctn-1 img{
+            margin-top: -130px;
+        }
+        .u-row .u-col-sm-6:nth-of-type(2){
+            padding-right: 10px;
+        }
+        .u-row .u-col-sm-6:nth-of-type(3){
+            padding-left: 10px;
+        }
+    }
+    // .banner{
+    //     .left-text{
+    //         position: relative;
+    //         top: 30px;
+    //     }
+    // }
+}
