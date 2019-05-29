@@ -112,7 +112,7 @@ class Footer extends Component {
                     </Row>
                 </div>
                 <div className="footer-bottom">
-                    Copyright ©2019 用友网络科技股份有限公司版权所有 京ICP 备05007539 号-21 京公网安备11010802021935号
+                Copyright © 2019 tinper . 京ICP备15025219号-1 
                 </div>
             </div>
         );

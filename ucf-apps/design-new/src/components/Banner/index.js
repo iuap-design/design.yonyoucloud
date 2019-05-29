@@ -13,7 +13,7 @@ class Banner extends Component {
                         <a target='_blank' href='https://github.com/iuap-design/blog/issues'>技术博客</a>
                     </span>
                     <span className="header-right">
-                        <a target='_blank' href="https://github.com/iuap-design/tinper-bee">Github</a>
+                        <a target='_blank' href="https://github.com/iuap-design">Github</a>
                     </span>
                 </div>
                 <div className="left-text">
@@ -56,7 +56,7 @@ class Banner extends Component {
                                         tinper-acs
                                     </span>
                                     <span className="design-item-l">
-                                        应该组件库
+                                        应用组件库
                                     </span>
                                 </a>
                             </Col>

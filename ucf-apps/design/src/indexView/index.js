@@ -6,7 +6,7 @@ import ComponentRange from '../components/ComponentRange';
 import RichCase from '../components/RichCase';
 import DevelopTools from '../components/DevelopTools';
 import Footer from 'components/Footer';
-import Case from '../components/Case'
+// import Case from '../components/Case'
 import './index.less';
 
 class Index extends Component {
@@ -19,7 +19,7 @@ class Index extends Component {
                 <ComponentRange/>
                 <RichCase/>
                 <DevelopTools/>
-                <Case/>
+                {/* <Case/> */}
                 <Footer/>
             </div>
         );
