@@ -33,6 +33,9 @@ const imgs2={
     '用友网络-diwork 工作台':baseUrl+'diwork'+'.png',
     '用友网络-NC 工程云':baseUrl+'NCgcy'+'.png',
     '用友网络-NC 司库云':baseUrl+'NCsky'+'.png',
+    '畅捷通':baseUrl+'cjt'+'.png',
+    '用友金融':baseUrl+'yyjr'+'.png',
+    '用友云营销服务':baseUrl+'yyyyxfw'+'.png',
 }
 class Index extends Component {
     render() { 
