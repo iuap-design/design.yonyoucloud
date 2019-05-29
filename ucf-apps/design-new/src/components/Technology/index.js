@@ -57,7 +57,7 @@ class Technology extends Component {
                                     <span className="description">
                                         轻量级MVVM前端框架
                                     </span>
-                                    <a target='_blank' href='http://docs.tinper.org/moy/kero/cascader.html'>
+                                    <a target='_blank' href='http://docs.tinper.org/moy/'>
                                         查看详情 >
                                     </a>
                                 </span>
