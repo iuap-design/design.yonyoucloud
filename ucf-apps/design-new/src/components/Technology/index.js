@@ -12,7 +12,9 @@ class Technology extends Component {
                     <Col xs={12}>
                         <div className="ctn ctn-1">
                             <a className='link' target='_blank' href='http://tinper.org/ucf-web/'>
-                                <img src="//design.yonyoucloud.com/static/tinper-bee/logo/ucf-web2.png"/>
+                                <div className='img-box'>
+                                    <img src="//design.yonyoucloud.com/static/tinper-bee/logo/ucf-web2.png"/>
+                                </div>
                                 <span className="ctx">
                                     <span className="ctx-title">
                                         UCF-Web

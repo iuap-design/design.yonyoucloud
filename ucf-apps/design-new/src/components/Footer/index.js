@@ -55,7 +55,7 @@ const obj = {
     ],
     '关于tinper':[
         {
-            name:'tinper，企业级大前端基础设施平台，为数字化企业实现多终端快速开发及产品极致体验提供一站式解决方案',href:'#'
+            name:'tinper，企业级大前端基础设施平台，为数字化企业实现多终端快速开发及产品极致体验提供一站式解决方案',href:'javascript:void(0)'
         },
         {
             name:'img',href:''
