@@ -30,6 +30,7 @@ class Banner extends Component {
                     </div>
                 </div>
                 <img className='img-bg' src='//design.yonyoucloud.com/static/tinper-bee/logo/banner.png'></img>
+                <img className='img-mobile-bg' src='//design.yonyoucloud.com/static/tinper-bee/logo/mobilebanner.png'></img>
                 <div className="design">
                         <Title title="为数字化企业而生的体验能力"/>
                         <Row>
