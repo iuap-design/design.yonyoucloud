@@ -19,7 +19,7 @@ class Banner extends Component {
                 <div className="left-text">
                     <div className="tinper">
                         <a target='_blank' href='/'>
-                            <img src="//tinper.org/assets/images/tinperlogos%2060w.png"/>
+                            <img src="//design.yonyoucloud.com/static/tinper-bee/logo/tinperlogos.png"/>
                         </a>
                     </div>
                     <div className="tinper-title">
