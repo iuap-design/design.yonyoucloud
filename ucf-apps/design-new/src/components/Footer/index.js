@@ -30,10 +30,10 @@ const obj = {
             name:'iuap-insight 端到端数据上报',href:'https://github.com/iuap-design/iuap-insight'
         },
         {
-            name:'小友 Web SDK',href:'https://github.com/iuap-design/xiaoyouweb'
+            name:'xiaoyouweb 小友智能SDK',href:'https://github.com/iuap-design/xiaoyouweb'
         },
         {
-            name:'IMSDK',href:'https://github.com/iuap-design/YYIMSDK'
+            name:'YYIMSDK 消息通讯SDK',href:'https://github.com/iuap-design/YYIMSDK'
         },
         {
             name:'yyy-jssdk 数据采集SDK',href:'http://git.yonyou.com/users/sign_in'
