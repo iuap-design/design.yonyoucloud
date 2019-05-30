@@ -1,5 +1,6 @@
 require('@babel/polyfill');
 var path = require('path')
+const CopyPlugin = require('copy-webpack-plugin');
 
 /**
  * UCF配置文件 更多说明文档请看 https://github.com/iuap-design/ucf-web/blob/master/packages/ucf-scripts/README.md
@@ -45,6 +46,10 @@ module.exports = (env, argv) => {
         // 调试服务需要运行的插件
         devPlugins: [],
         // 构建服务需要运行的插件
-        buildPlugins: []
+        buildPlugins: [
+            new CopyPlugin([
+                { from: 'dist/*/*', to: '' }
+              ]),
+        ]
     }
 }
