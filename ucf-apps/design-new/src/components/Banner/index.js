@@ -29,8 +29,9 @@ class Banner extends Component {
                         为数字化企业实现多终端快速开发及产品极致体验提供一站式解决方案
                     </div>
                 </div>
-                <img className='img-bg' src='//design.yonyoucloud.com/static/tinper-bee/logo/banner.png'></img>
-                <img className='img-mobile-bg' src='//design.yonyoucloud.com/static/tinper-bee/logo/mobilebanner.png'></img>
+                {
+                    this.props.isMobile?<img className='img-mobile-bg' src='//design.yonyoucloud.com/static/tinper-bee/logo/mobilebanner.png'></img>:<img className='img-bg' src='//design.yonyoucloud.com/static/tinper-bee/logo/banner.png'></img>
+                }
                 <div className="design">
                         <Title title="为数字化企业而生的体验能力"/>
                         <Row>

@@ -42,7 +42,7 @@ class Index extends Component {
     render() { 
         return (
             <div className="home" >
-                <Banner/>
+                <Banner isMobile={document.documentElement.clientWidth<768}/>
                 <Technology/>
                 <Service/>
                 <Case imgs={imgs1} title='客户案例'/>
