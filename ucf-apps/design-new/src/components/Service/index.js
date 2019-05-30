@@ -36,7 +36,7 @@ class Service extends Component {
                         </a>
                     </Col>
                     <Col sm={4} xs={12}>
-                        <a target='_blank' href='http://tinper.org/dist/cdn/index.html' className='link'>
+                        <a target='_blank' href='/dist/cdn/index.html' className='link'>
                             <div className="service-item">
                                 <img src="//design.yonyoucloud.com/static/tinper-bee/logo/cdn.png"/>
                                 <span className="item-title">
