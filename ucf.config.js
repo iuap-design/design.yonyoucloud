@@ -48,7 +48,7 @@ module.exports = (env, argv) => {
         // 构建服务需要运行的插件
         buildPlugins: [
             new CopyPlugin([
-                { from: 'dist/*/*', to: '' }
+                { from: 'dist/*/*', to: 'design-new' }
               ]),
         ]
     }
