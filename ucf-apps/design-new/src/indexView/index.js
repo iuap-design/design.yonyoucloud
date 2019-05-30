@@ -6,7 +6,9 @@ import Case from '../components/Case';
 import CaseYonyou from '../components/Case';
 import Footer from '../components/Footer';
 import './index.less';
-const baseUrl = '//design.yonyoucloud.com/static/tinper-bee/logo/monochrome/'
+const baseUrl = '//design.yonyoucloud.com/static/tinper-bee/logo/monochrome/';
+import { LazyLoadComponent,trackWindowScroll } from 'react-lazy-load-image-component';
+
 
 const imgs1={
     '郎酒CRM平台':baseUrl+'ljCRM'+'.png',
@@ -45,12 +47,14 @@ class Index extends Component {
                 <Banner isMobile={document.documentElement.clientWidth<768}/>
                 <Technology/>
                 <Service/>
-                <Case imgs={imgs1} title='客户案例'/>
-                <CaseYonyou imgs={imgs2} title='用友系产品案例'/>
-                <Footer/>
+                <LazyLoadComponent>
+                    <Case imgs={imgs1} title='客户案例'/>
+                    <CaseYonyou imgs={imgs2} title='用友系产品案例'/>
+                    <Footer/>
+                </LazyLoadComponent>
             </div>
         );
     }
 }
 
-export default Index;
+export default trackWindowScroll(Index);
