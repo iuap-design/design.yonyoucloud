@@ -21,13 +21,15 @@ class NavBar extends Component {
         }); 
     }
     render() {
+        const { activeKey } = this.props;
         const menu1 = (
             <Menu>
-              <Item key="1" className="first-show">首页</Item>
+              <Item key="1"><a className={activeKey === '1' ? 'first-show' : ''} href="/design" >首页</a></Item>
               <Item key="2" className="lang">设计语言</Item>
               <Item key="3"><a  href="/tinper-bee" onTouchStart={()=>{}}>基础组件</a></Item>
               <Item key="4"><a  href="/tinper-acs" onTouchStart={()=>{}}>应用组件</a></Item>
-              <Item key="5"><a  href="/prepaper" onTouchStart={()=>{}}>典型案例</a></Item>
+              <Item key="5"><a className={activeKey === '5' ? 'first-show' : ''} href="/ecology" onTouchStart={()=>{}}>生态组件</a></Item>
+              <Item key="6"><a className={activeKey === '6' ? 'first-show' : ''} href="/prepaper" onTouchStart={()=>{}}>典型案例</a></Item>
             </Menu>
         );
         return (
@@ -47,12 +49,13 @@ class NavBar extends Component {
                 </Col>
                 <Col className='nav-right' md={7}>
                     <ul className="nav-options">
-                        <li><a className="first-show" href="#" >首页</a></li>
-                        <li  className="language">设计语言</li>
-                        <li><a  href="/tinper-bee">基础组件</a></li>
-                        <li><a  href="/tinper-acs">应用组件</a></li>
+                        <li key="1"><a className={activeKey === '1' ? 'first-show' : ''} href="/design" >首页</a></li>
+                        <li key="2" className="language">设计语言</li>
+                        <li key="3"><a  href="/tinper-bee">基础组件</a></li>
+                        <li key="4"><a  href="/tinper-acs">应用组件</a></li>
+                        <li key="5"><a className={activeKey === '5' ? 'first-show' : ''} href="/ecology">生态组件</a></li>
                         {/* <li><a  href="/case/preview" target="_blank">典型案例</a></li> */}
-                        <li><a href="/prepaper">典型案例</a></li>
+                        <li key="6"><a className={activeKey === '6' ? 'first-show' : ''} href="/prepaper">典型案例</a></li>
                         <li>
                             <Select defaultValue="zh_CN" dropdownClassName='nav-lang-select'>
                                 <Option value="zh_CN">简体中文</Option>

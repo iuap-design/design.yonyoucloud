@@ -13,7 +13,7 @@ class Index extends Component {
     render() { 
         return (
             <div className="home" >
-                <NavBar activeKey='index'/>
+                <NavBar activeKey='1'/>
                 <IuapIntroduce/>
                 <LanguageAbility/>
                 <ComponentRange/>

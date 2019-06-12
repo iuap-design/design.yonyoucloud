@@ -15,7 +15,8 @@ module.exports = (env, argv) => {
         bootList: [
             "design",
             "design-new",
-            "prepaper"
+            "prepaper",
+            "ecology"
         ],
         // 代理的配置
         proxy: [
