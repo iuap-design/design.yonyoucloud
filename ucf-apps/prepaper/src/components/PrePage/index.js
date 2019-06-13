@@ -8,8 +8,9 @@ class PrePage extends Component {
             <div className="pre">
                 <Row className='pre-design'>
                     <Col md={5} sm={5}>
-                        <p className="pre-design-h1">iuap design</p>
-                        <p className="pre-design-ct">一套面向企业数字化的用户体验系统，基于简、晰、智、敏的模块化设计理念提供通用设计资源、UI 组件、场景化模板等研发资产，让设计人员及开发者专注于极致体验。</p>
+                        <p className="pre-design-h1">蜂巢，基于 iUAP Design 的典型案例系统</p>
+                        <p className="pre-design-ct">从大量业务实践场景提炼而来，结合 iUAP 专属云应用平台门户，提供了包含A1单表查询、A2单表行内编辑、A3单表弹窗编辑、B1左树右表、B2一主一子、B3一主多子、参照示例等经典常用的单据模式，源码开放，开发者可参考借鉴。</p>
+                        <p className="pre-design-acount">在线系统提供两个演示账号，普通账号：demo/123qwe，管理员账号：admin/123456b。</p>
                         <div className='pre-design-btns'>
                             {/* <Button className='start'><a  href="/case/preview" target="_blank">预览</a></Button> */}
                             <Button className='start'><a  href="/case/preview" target="_blank">预览</a></Button>
@@ -25,10 +26,11 @@ class PrePage extends Component {
                          <img src={richcase}/>
                     </div>
                     <div className="mob-pre-h1">
-                        iuap design
+                        蜂巢，基于 iUAP Design 的典型案例系统
                     </div>
                     <div className="mob-pre-ct" >
-                        一套面向企业数字化的用户体验系统，基于简、晰、智、敏的模块化设计理念提供通用设计资源、UI 组件、场景化模板等研发资产，让设计人员及开发者专注于极致体验。
+                        从大量业务实践场景提炼而来，结合 iUAP 专属云应用平台门户，提供了包含A1单表查询、A2单表行内编辑、A3单表弹窗编辑、B1左树右表、B2一主一子、B3一主多子、参照示例等经典常用的单据模式，源码开放，开发者可参考借鉴。
+                    <p>在线系统提供两个演示账号，普通账号：demo/123qwe，管理员账号：admin/123456b。</p>
                     </div>
                     <div className="mob-btns">
                         <Button className="mob-start"><a href="/case/preview" target="_blank">预览</a></Button>
