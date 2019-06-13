@@ -37,6 +37,7 @@ module.exports = (env, argv) => {
             //'ucf-apps': path.resolve(__dirname, 'ucf-apps/')
             'images': path.resolve(__dirname, 'ucf-apps/design/src/static/images'),
             'components': path.resolve(__dirname, 'ucf-common/src/components'),
+            'static': path.resolve(__dirname, 'ucf-common/src/static'),
         },
         // 构建排除指定包
         externals: {

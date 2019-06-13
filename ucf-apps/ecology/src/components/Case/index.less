@@ -3,26 +3,26 @@
     color: #424242;
     text-align: left;  
     padding-top: 64px;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 32px;
+    padding-right: 32px;
     padding-bottom: 90px;
     .case-title {
-        font-size: 38px;
-        font-weight: 500; 
+        font-size: 30px;
+        font-weight: normal; 
+        line-height: 42px;
         p {
-            margin: 16px 7.5px 8px;
+            margin: 40px 8px 15px;
         }
     }
     .case-desc {
         font-size: 14px;
-        display: block;
-        line-height: 32px;
-        margin: 0 7.5px;
+        line-height: 30px;
+        margin: 14px 8px;
     }
     .case-ctn-item {
         margin-bottom: 15px;
-        padding-left: 7.5px;
-        padding-right: 7.5px;
+        padding-left: 8px;
+        padding-right: 8px;
         font-weight: 500;
         color: #424242;
         .u-tile {
@@ -51,9 +51,37 @@
                 color: #26262C;
                 font-weight: 300;
             }
+            .u-row {
+                display: flex;
+                align-items: flex-end;
+                .logo-container {
+                    padding: 0;
+                    img {
+                        width: auto;
+                        height: 48px;
+                    }
+                }
+            }
         }
         img {
             width: 100%;
+        }
+    }
+}
+
+// 移动端适配
+@media screen and (max-width:767px){
+    .case .case-ctn-item .u-tile {
+        min-height: 130px;
+    }
+}
+
+// ipad 
+@media screen and (min-width:768px) and (max-width:991px) {
+    .case .case-ctn-item .u-tile {
+        min-height: 130px;
+        .u-row .logo-container img {
+            height: 40px;
         }
     }
 }

@@ -28,7 +28,7 @@ class NavBar extends Component {
               <Item key="2" className="lang">设计语言</Item>
               <Item key="3"><a  href="/tinper-bee" onTouchStart={()=>{}}>基础组件</a></Item>
               <Item key="4"><a  href="/tinper-acs" onTouchStart={()=>{}}>应用组件</a></Item>
-              <Item key="5"><a className={activeKey === '5' ? 'first-show' : ''} href="/ecology" onTouchStart={()=>{}}>生态组件</a></Item>
+              <Item key="5"><a className={activeKey === '5' ? 'first-show' : ''} href="/ecology" onTouchStart={()=>{}}>社区精选</a></Item>
               <Item key="6"><a className={activeKey === '6' ? 'first-show' : ''} href="/prepaper" onTouchStart={()=>{}}>典型案例</a></Item>
             </Menu>
         );
@@ -53,7 +53,7 @@ class NavBar extends Component {
                         <li key="2" className="language">设计语言</li>
                         <li key="3"><a  href="/tinper-bee">基础组件</a></li>
                         <li key="4"><a  href="/tinper-acs">应用组件</a></li>
-                        <li key="5"><a className={activeKey === '5' ? 'first-show' : ''} href="/ecology">生态组件</a></li>
+                        <li key="5"><a className={activeKey === '5' ? 'first-show' : ''} href="/ecology">社区精选</a></li>
                         {/* <li><a  href="/case/preview" target="_blank">典型案例</a></li> */}
                         <li key="6"><a className={activeKey === '6' ? 'first-show' : ''} href="/prepaper">典型案例</a></li>
                         <li>

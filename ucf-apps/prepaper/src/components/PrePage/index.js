@@ -9,7 +9,7 @@ class PrePage extends Component {
                 <Row className='pre-design'>
                     <Col md={5} sm={5}>
                         <p className="pre-design-h1">iuap design</p>
-                        <p className="pre-design-ct">丰富案例覆盖典型业务场景</p>
+                        <p className="pre-design-ct">一套面向企业数字化的用户体验系统，基于简、晰、智、敏的模块化设计理念提供通用设计资源、UI 组件、场景化模板等研发资产，让设计人员及开发者专注于极致体验。</p>
                         <div className='pre-design-btns'>
                             {/* <Button className='start'><a  href="/case/preview" target="_blank">预览</a></Button> */}
                             <Button className='start'><a  href="/case/preview" target="_blank">预览</a></Button>
@@ -28,7 +28,7 @@ class PrePage extends Component {
                         iuap design
                     </div>
                     <div className="mob-pre-ct" >
-                        丰富案例覆盖典型业务场景
+                        一套面向企业数字化的用户体验系统，基于简、晰、智、敏的模块化设计理念提供通用设计资源、UI 组件、场景化模板等研发资产，让设计人员及开发者专注于极致体验。
                     </div>
                     <div className="mob-btns">
                         <Button className="mob-start"><a href="/case/preview" target="_blank">预览</a></Button>
