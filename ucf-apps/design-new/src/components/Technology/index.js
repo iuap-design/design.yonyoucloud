@@ -48,7 +48,7 @@ class Technology extends Component {
                     </Col>
                     <Col  md={6}  xs={12}>
                         <div className="ctn">
-                            <a className='link' target='_blank' href='http://docs.tinper.org/moy/kero/cascader.html'>
+                            <a className='link' target='_blank' href='http://docs.tinper.org/moy/'>
                                 <img src="//design.yonyoucloud.com/static/tinper-bee/logo/moy.png"/>
                                 <span className="ctx">
                                     <span className="ctx-title">
