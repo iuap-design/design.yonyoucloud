@@ -8,7 +8,7 @@ class PrePage extends Component {
             <div className="pre">
                 <Row className='pre-design'>
                     <Col md={5} sm={5}>
-                        <p className="pre-design-h1">蜂巢——典型案例系统</p>
+                        <p className="pre-design-h1">蜂巢—典型案例系统</p>
                         <p className="pre-design-ct">提炼自丰富的业务场景，设计师与工程师精心打磨，结合 iUAP 专属云应用平台，提供了包含A1单表查询、A2单表行内编辑、A3单表弹窗编辑、B1左树右表、B2一主一子、B3一主多子、参照示例等经典常用的单据模式，源码开放，开发者可参考借鉴。</p>
                         <p className="pre-design-acount">在线系统提供两个演示账号，普通账号：demo/123qwe，管理员账号：admin/123456b。</p>
                         <div className='pre-design-btns'>
@@ -26,7 +26,7 @@ class PrePage extends Component {
                          <img src={richcase}/>
                     </div>
                     <div className="mob-pre-h1">
-                        蜂巢——典型案例系统
+                        蜂巢—典型案例系统
                     </div>
                     <div className="mob-pre-ct" >
                         提炼自丰富的业务场景，设计师与工程师精心打磨，结合 iUAP 专属云应用平台，提供了包含A1单表查询、A2单表行内编辑、A3单表弹窗编辑、B1左树右表、B2一主一子、B3一主多子、参照示例等经典常用的单据模式，源码开放，开发者可参考借鉴。
