@@ -49,7 +49,7 @@ class Case extends Component {
                 <div className="case-title">
                     <p>社区精选组件</p>
                 </div>
-                <p className="case-desc">tinper-bee 是 iuap Design 设计规范的 React 实现，所以我们倾向于只提供符合该规范、且带有视觉展现的 UI 组件，也尽量不重复造轮子。我们推荐使用以下社区已有的优秀实现，与 tinper-bee 形成互补：</p>
+                <p className="case-desc">精选第三方组件，与 tinper-bee 组件库一起助力开发者快速构建企业应用。</p>
                 <div className="case-ctn">
                     <Row>
                         {
