@@ -32,18 +32,20 @@ class Technology extends Component {
                     </Col>
                     <Col md={6} xs={12}>
                         <div className="ctn">
-                            <img src="//design.yonyoucloud.com/static/tinper-bee/logo/mdf.png"/>
-                            <span className="ctx">
-                                <span className="ctx-title">
-                                    MDF
+                            <a className='link' target='_blank' href='http://tinper.org/mdf/'>
+                                <img src="//design.yonyoucloud.com/static/tinper-bee/logo/mdf.png"/>
+                                <span className="ctx">
+                                    <span className="ctx-title">
+                                        MDF
+                                    </span>
+                                    <span className="description">
+                                        基于元数据的模型驱动开发框架
+                                    </span>
+                                    <a target='_blank' href='http://tinper.org/mdf/'>
+                                        查看详情 >
+                                    </a>
                                 </span>
-                                <span className="description">
-                                    基于元数据的模型驱动开发框架
-                                </span>
-                                <a href='#'>
-                                    暂不对外开放
-                                </a>
-                            </span>
+                            </a>
                         </div>
                     </Col>
                     <Col  md={6}  xs={12}>
