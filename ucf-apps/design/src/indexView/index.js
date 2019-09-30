@@ -6,6 +6,7 @@ import ComponentRange from '../components/ComponentRange';
 import RichCase from '../components/RichCase';
 import DevelopTools from '../components/DevelopTools';
 import Footer from 'components/Footer';
+import GridDemoSystem from '../components/GridDemoSystem';
 // import Case from '../components/Case'
 import './index.less';
 
@@ -17,6 +18,7 @@ class Index extends Component {
                 <IuapIntroduce/>
                 <LanguageAbility/>
                 <ComponentRange/>
+                <GridDemoSystem/>
                 <RichCase/>
                 <DevelopTools/>
                 {/* <Case/> */}

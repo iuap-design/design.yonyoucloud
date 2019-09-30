@@ -40,8 +40,8 @@ class Technology extends Component {
                                 <span className="description">
                                     基于元数据的模型驱动开发框架
                                 </span>
-                                <a href='#'>
-                                    暂不对外开放
+                                <a target='_blank' href='http://tinper.org/mdf/'>
+                                    查看详情 >
                                 </a>
                             </span>
                         </div>
