@@ -28,7 +28,7 @@ class IuapIntroduce extends Component {
                         一套面向企业数字化的用户体验系统，基于简、晰、智、敏的模块化设计理念提供通用设计资源、UI 组件、场景化模板等研发资产，让设计人员及开发者专注于极致体验。
                     </div>
                     <div className="mob-btns">
-                        <Button className="mob-start"><a href="https://design.yonyoucloud.com/tinper-bee">开始使用</a></Button>
+                        <Button className="mob-start"><a href="http://bee.tinper.org/tinper-bee/">开始使用</a></Button>
                         <Button className="mob-github"><a target="_blank" href="https://github.com/iuap-design">GitHub</a></Button>
                     </div>
                 </div>
