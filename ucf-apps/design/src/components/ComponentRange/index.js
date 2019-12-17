@@ -12,7 +12,7 @@ class ComponentRange extends Component {
         return (
             <div className="component-range-content">
             <Row >
-                <Col className="component-range-title" md={12}>60种基础组件，6大关键特性</Col>
+                <Col className="component-range-title" md={12}>62种基础组件，6大关键特性</Col>
            </Row>
             <Row>
             <Col className="component-range-aspect  firm" md={4} sm={12} xs={12}>
