@@ -30,7 +30,7 @@ module.exports = (env, argv) => {
         },
         // 全局环境变量
         global_env: {
-            TINPERVERSION:JSON.stringify("V2.3.8")
+            TINPERVERSION:JSON.stringify("V2.3.9")
         },
         // 别名配置
         alias: {
