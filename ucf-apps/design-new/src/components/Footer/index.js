@@ -58,7 +58,7 @@ const obj = {
             name:'tinper，企业级大前端基础设施平台，为数字化企业实现多终端快速开发及产品极致体验提供一站式解决方案',href:'javascript:void(0)'
         },
         {
-            name:'img',href:''
+            name:'tinper官方技术交流群',href:'#'
         },
     ],
 }
@@ -81,7 +81,6 @@ class Footer extends Component {
                                         list.push(
                                             <li key={i} className="li-sp">
                                                 <div className="sp-area">
-                                                    <img src="//design.yonyoucloud.com/static/tinper-bee/logo/qrcode.jpeg"/>
                                                     <span className="sp-area-span">
                                                         <span>
                                                             扫描二维码，<br/>
