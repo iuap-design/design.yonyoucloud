@@ -14,6 +14,7 @@ class Banner extends Component {
                     </span>
                     <span className="header-right">
                         <a target='_blank' href="https://github.com/iuap-design">Github</a>
+                        <a target='_blank' href="https://yondesign.yonyou.com/homepage/#/">切回新版</a>
                     </span>
                 </div>
                 <div className="left-text">
