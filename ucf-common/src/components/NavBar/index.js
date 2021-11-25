@@ -24,7 +24,7 @@ class NavBar extends Component {
         const { activeKey } = this.props;
         const menu1 = (
             <Menu>
-              <Item key="1"><a className={activeKey === '1' ? 'first-show' : ''} href="/design" >首页</a></Item>
+              <Item key="1"><a className={activeKey === '1' ? 'first-show' : ''} href="/design-new" >首页</a></Item>
               <Item key="2" className="lang">设计语言</Item>
               <Item key="3"><a  href="/tinper-bee" onTouchStart={()=>{}}>基础组件</a></Item>
               <Item key="4"><a  href="/tinper-acs" onTouchStart={()=>{}}>应用组件</a></Item>
@@ -49,7 +49,7 @@ class NavBar extends Component {
                 </Col>
                 <Col className='nav-right' md={7}>
                     <ul className="nav-options">
-                        <li key="1"><a className={activeKey === '1' ? 'first-show' : ''} href="/design" >首页</a></li>
+                        <li key="1"><a className={activeKey === '1' ? 'first-show' : ''} href="/design-new" >首页</a></li>
                         <li key="2" className="language">设计语言</li>
                         <li key="3"><a  href="/tinper-bee">基础组件</a></li>
                         <li key="4"><a  href="/tinper-acs">应用组件</a></li>

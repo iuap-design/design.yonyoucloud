@@ -37,7 +37,7 @@ class Banner extends Component {
                         <Title title="为数字化企业而生的体验能力"/>
                         <Row>
                             <Col className="design-item" md={4} xs={12}>
-                                <a target='_blank' href='http://bee.tinper.org' className="link">
+                                <a target='_blank' href='http://bee.tinper.org/tinper-bee' className="link">
                                     <div className="img">
                                         <img src="//design.yonyoucloud.com/static/tinper-bee/logo/tinper-bee.png"/>
                                     </div>
