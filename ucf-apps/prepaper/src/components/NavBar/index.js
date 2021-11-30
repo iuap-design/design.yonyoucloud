@@ -23,7 +23,7 @@ class NavBar extends Component {
     render() {
         const menu1 = (
             <Menu>
-              <Item key="1"><a href="/">首页</a></Item>
+              <Item key="1"><a href="/design-new">首页</a></Item>
               <Item key="2" className="lang">设计语言</Item>
               <Item key="3"><a  href="/tinper-bee" onTouchStart={()=>{}}>基础组件</a></Item>
               <Item key="4"><a  href="/tinper-acs" onTouchStart={()=>{}}>应用组件</a></Item>
